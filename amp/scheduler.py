@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from dataclasses import dataclass
 from typing import Sequence
 
 from amp.config import (
@@ -9,6 +10,29 @@ from amp.config import (
 )
 from amp.juno import ExecutionState, JunoRecord
 from amp.process import Process, ProcessState
+
+@dataclass(slots=True)
+class Dispatch:
+    pid: int | None
+    granted_ms: int
+
+
+class RoundRobinScheduler:
+    def __init__(self) -> None:
+        self._cursor = 0
+
+    def select(self, processes: Sequence[Process], tick: int, slice_ms: int) -> Dispatch:
+        runnable = [p for p in processes if p.state is ProcessState.RUNNABLE and p.requested_ms(tick) > 0]
+        if not runnable:
+            return Dispatch(pid=None, granted_ms=0)
+
+        self._cursor %= len(runnable)
+        p = runnable[self._cursor]
+        self._cursor = (self._cursor + 1) % len(runnable)
+
+        req = p.requested_ms(tick)
+        grant = slice_ms if req >= slice_ms else req
+        return Dispatch(pid=p.pid, granted_ms=grant)
 
 
 class MarketScheduler:
