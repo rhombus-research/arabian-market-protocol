@@ -4,6 +4,7 @@ from amp.process import Process
 from amp.scheduler import MarketScheduler, RoundRobinScheduler
 from amp.workloads import BurstDemand, ConstantDemand
 from amp.workloads import ForkBombSpawner
+from amp.metrics import MetricsRecorder, critical_responsiveness, write_summary
 
 import os
 
@@ -122,6 +123,9 @@ def run_market(procs: list[Process]) -> None:
 def run_forkbomb_rr_and_market() -> None:
     os.makedirs("out", exist_ok=True)
 
+    rr_rec = MetricsRecorder(run_name="forkbomb_rr")
+    market_rec = MetricsRecorder(run_name="forkbomb_market")
+
     rr_path = os.path.join("out", "forkbomb_rr.txt")
     market_path = os.path.join("out", "forkbomb_market.txt")
 
@@ -156,6 +160,15 @@ def run_forkbomb_rr_and_market() -> None:
 
             d = rr.select(rr_procs, tick=tick, slice_ms=DEFAULT_SLICE_MS)
             rr_out.write(f"tick={tick:02d} procs={len(rr_procs):02d} dispatch pid={d.pid} grant_ms={d.granted_ms}\n")
+            rr_rec.add(
+                {
+                    "tick": tick,
+                    "scheduler": "RR",
+                    "procs": len(rr_procs),
+                    "dispatch_pid": d.pid,
+                    "granted_ms": d.granted_ms,
+                }
+            )
 
     with open(market_path, "w", encoding="utf-8") as m_out:
         m_out.write("=== Market (Fork Bomb) ===\n")
@@ -211,17 +224,58 @@ def run_forkbomb_rr_and_market() -> None:
 
             if d.pid is None:
                 m_out.write(f"tick={tick:02d} procs={len(market_procs):02d} dispatch pid=None grant_ms=0\n")
+                market_rec.add(
+                    {
+                        "tick": tick,
+                        "scheduler": "MARKET",
+                        "procs": len(market_procs),
+                        "dispatch_pid": None,
+                        "granted_ms": 0,
+                    }
+                )
             else:
                 r = records[d.pid]
                 m_out.write(
                     f"tick={tick:02d} procs={len(market_procs):02d} dispatch pid={d.pid} grant_ms={d.granted_ms} "
                     f"budget={r.budget} state={r.state.name}\n"
                 )
+                market_rec.add(
+                    {
+                        "tick": tick,
+                        "scheduler": "MARKET",
+                        "procs": len(market_procs),
+                        "dispatch_pid": d.pid,
+                        "granted_ms": d.granted_ms,
+                        "budget_after": r.budget,
+                        "state_after": r.state.name,
+                        "last_bid": r.last_bid,
+                    }
+                )
+
 
         m_out.write("\n=== Summary ===\n")
         bankrupt = sum(1 for r in records.values() if r.state is ExecutionState.BANKRUPT)
         m_out.write(f"total_procs={len(market_procs)} bankrupt={bankrupt}\n")
         m_out.write(f"attacker_root_budget={records[attacker_root_pid].budget} state={records[attacker_root_pid].state.name}\n")
+
+        rr_jsonl = rr_rec.write_jsonl("forkbomb_rr.jsonl")
+        market_jsonl = market_rec.write_jsonl("forkbomb_market.jsonl")
+
+        rr_sum = rr_rec.summary()
+        market_sum = market_rec.summary()
+
+        rr_crit = critical_responsiveness(rr_rec._events, critical_pid=1)
+        market_crit = critical_responsiveness(market_rec._events, critical_pid=1)
+
+        rr_sum["critical"] = rr_crit
+        market_sum["critical"] = market_crit
+
+        summary_path = write_summary("out", "forkbomb_summary.json", [rr_sum, market_sum])
+
+        print(rr_jsonl)
+        print(market_jsonl)
+        print(summary_path)
+
 
 def main() -> None:
     run_forkbomb_rr_and_market()

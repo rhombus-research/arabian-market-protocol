@@ -1,0 +1,34 @@
+{
+  "summaries": [
+    {
+      "run_name": "forkbomb_rr",
+      "event_count": 80,
+      "dispatch_count": 80,
+      "max_procs": 60,
+      "fairness_jain_index": 0.847855913353527,
+      "critical": {
+        "critical_pid": 1,
+        "runs": 1,
+        "first_tick": 0,
+        "last_tick": 0,
+        "max_gap_ticks": 0,
+        "mean_gap_ticks": 0.0
+      }
+    },
+    {
+      "run_name": "forkbomb_market",
+      "event_count": 80,
+      "dispatch_count": 79,
+      "max_procs": 13,
+      "fairness_jain_index": 0.4475981886524403,
+      "critical": {
+        "critical_pid": 1,
+        "runs": 9,
+        "first_tick": 0,
+        "last_tick": 51,
+        "max_gap_ticks": 19,
+        "mean_gap_ticks": 6.375
+      }
+    }
+  ]
+}
