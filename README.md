@@ -1,5 +1,9 @@
 # Arabian Market Protocol (AMP)
 
+<p>
+  <img src="assets/lamp.png" alt="Arabian Market" width=512>
+</p>
+
 A user-space simulation of a market-based CPU scheduler designed to defend against
 resource exhaustion attacks via bounded economic enforcement.
 
