@@ -36,7 +36,7 @@ Processes are represented using fixed abstractions consisting of:
 - Parameterized demand function
 - Execution state (e.g., runnable, throttled, bankrupt)
 
-Scheduler-visible execution records follow a fixed-size schema inspired by the Juno record discipline. These records maintain:
+Scheduler-visible execution records follow a fixed-size schema inspired by the Sijil record discipline. These records maintain:
 
 - Remaining execution budget
 - Accumulated execution time

@@ -8,7 +8,7 @@ from amp.config import (
     THROTTLE_PENALTY_DEN,
     THROTTLE_PENALTY_NUM,
 )
-from amp.juno import ExecutionState, JunoRecord
+from amp.sijil import ExecutionState, SijilRecord
 from amp.process import Process, ProcessState
 
 @dataclass(slots=True)
@@ -36,7 +36,7 @@ class RoundRobinScheduler:
 
 
 class MarketScheduler:
-    def __init__(self, records: dict[int, JunoRecord]) -> None:
+    def __init__(self, records: dict[int, SijilRecord]) -> None:
         self._records = records
 
     def select(self, processes: Sequence[Process], tick: int, slice_ms: int) -> Dispatch:

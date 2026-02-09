@@ -1,5 +1,5 @@
 from amp.config import CHILD_START_BUDGET_MS, DEFAULT_BUDGET_MS, DEFAULT_SLICE_MS, SPAWN_FEE_MS
-from amp.juno import ExecutionState, JunoRecord
+from amp.sijil import ExecutionState, SijilRecord
 from amp.process import Process
 from amp.scheduler import MarketScheduler, RoundRobinScheduler
 from amp.workloads import BurstDemand, ConstantDemand
@@ -20,7 +20,7 @@ def run_rr(procs: list[Process]) -> None:
 def run_market(procs: list[Process]) -> None:
     print("\n=== Market ===")
     records = {
-        p.pid: JunoRecord(
+        p.pid: SijilRecord(
             pid=p.pid,
             budget=DEFAULT_BUDGET_MS,
             spent=0,
@@ -85,7 +85,7 @@ def run_market(procs: list[Process]) -> None:
 #
 #     print("\n=== Market (Fork Bomb) ===")
 #     records = {
-#         p.pid: JunoRecord(
+#         p.pid: SijilRecord(
 #             pid=p.pid,
 #             budget=DEFAULT_BUDGET_MS,
 #             spent=0,
@@ -101,7 +101,7 @@ def run_market(procs: list[Process]) -> None:
 #         for _ in range(to_spawn):
 #             new_pid = max(p.pid for p in market_procs) + 1
 #             market_procs.append(Process(pid=new_pid, name=f"attacker-{new_pid}", demand=ConstantDemand(ms=10)))
-#             records[new_pid] = JunoRecord(
+#             records[new_pid] = SijilRecord(
 #                 pid=new_pid,
 #                 budget=DEFAULT_BUDGET_MS,
 #                 spent=0,
@@ -174,7 +174,7 @@ def run_forkbomb_rr_and_market() -> None:
         m_out.write("=== Market (Fork Bomb) ===\n")
 
         records = {
-            p.pid: JunoRecord(
+            p.pid: SijilRecord(
                 pid=p.pid,
                 budget=DEFAULT_BUDGET_MS,
                 spent=0,
@@ -212,7 +212,7 @@ def run_forkbomb_rr_and_market() -> None:
 
                 new_pid = max(p.pid for p in market_procs) + 1
                 market_procs.append(Process(pid=new_pid, name=f"attacker-{new_pid}", demand=ConstantDemand(ms=10)))
-                records[new_pid] = JunoRecord(
+                records[new_pid] = SijilRecord(
                     pid=new_pid,
                     budget=spawner.child_start_budget_ms,
                     spent=0,

@@ -9,7 +9,7 @@ class ExecutionState(Enum):
 
 
 @dataclass(slots=True)
-class JunoRecord:
+class SijilRecord:
     pid: int
     budget: int
     spent: int
