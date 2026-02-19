@@ -152,13 +152,35 @@ def run_forkbomb_rr_and_market() -> None:
         rr_out.write("=== Round Robin (Fork Bomb) ===\n")
         rr = RoundRobinScheduler()
 
+        # RR latency tracking
+        rr_runnable_since: dict[int, int] = {}
+        rr_waiting_latency: dict[int, list[int]] = {}
+
         for tick in range(ticks):
+
             to_spawn = spawner.new_children(tick=tick, current_total=len(rr_procs))
+
             for _ in range(to_spawn):
                 new_pid = max(p.pid for p in rr_procs) + 1
                 rr_procs.append(Process(pid=new_pid, name=f"attacker-{new_pid}", demand=ConstantDemand(ms=10)))
 
+            for p in rr_procs:
+                demand = p.demand.demand_ms(tick)
+                if demand > 0:
+                    if p.pid not in rr_runnable_since:
+                        rr_runnable_since[p.pid] = tick
+                else:
+                    if p.pid in rr_runnable_since:
+                        del rr_runnable_since[p.pid]
+
             d = rr.select(rr_procs, tick=tick, slice_ms=DEFAULT_SLICE_MS)
+
+            rr_latency = None
+            if d.pid is not None and d.pid in rr_runnable_since:
+                start_tick = rr_runnable_since[d.pid]
+                rr_latency = tick - start_tick
+                rr_waiting_latency.setdefault(d.pid, []).append(rr_latency)
+
             rr_out.write(f"tick={tick:02d} procs={len(rr_procs):02d} dispatch pid={d.pid} grant_ms={d.granted_ms}\n")
             rr_rec.add(
                 {
@@ -167,6 +189,7 @@ def run_forkbomb_rr_and_market() -> None:
                     "procs": len(rr_procs),
                     "dispatch_pid": d.pid,
                     "granted_ms": d.granted_ms,
+                    "waiting_latency": rr_latency,
                 }
             )
 
@@ -187,6 +210,10 @@ def run_forkbomb_rr_and_market() -> None:
         market = MarketScheduler(records)
 
         attacker_root_pid = 3
+
+        # Arabian Market latency tracking
+        runnable_since: dict[int, int] = {}
+        waiting_latency: dict[int, list[int]] = {}
 
         for tick in range(ticks):
             # Spawn economics:
@@ -229,7 +256,22 @@ def run_forkbomb_rr_and_market() -> None:
                 parent_pid=attacker_root_pid,
             )
 
+            for p in market_procs:
+                demand = p.demand.demand_ms(tick)
+                if demand > 0:
+                    if p.pid not in runnable_since:
+                        runnable_since[p.pid] = tick
+                else:
+                    if p.pid in runnable_since:
+                        del runnable_since[p.pid]
+
             d = market.select(market_procs, tick=tick, slice_ms=DEFAULT_SLICE_MS)
+
+            latency = None
+            if d.pid is not None and d.pid in runnable_since:
+                start_tick = runnable_since[d.pid]
+                latency = tick - start_tick
+                waiting_latency.setdefault(d.pid, []).append(latency)
 
             if d.pid is None:
                 m_out.write(f"tick={tick:02d} procs={len(market_procs):02d} dispatch pid=None grant_ms=0\n")
@@ -258,6 +300,7 @@ def run_forkbomb_rr_and_market() -> None:
                         "budget_after": r.budget,
                         "state_after": r.state.name,
                         "last_bid": r.last_bid,
+                        "waiting_latency": latency,
                     }
                 )
 
@@ -278,6 +321,24 @@ def run_forkbomb_rr_and_market() -> None:
 
         rr_sum["critical"] = rr_crit
         market_sum["critical"] = market_crit
+
+        # RR latency aggregation for critical PID
+        rr_critical_latency = rr_waiting_latency.get(1, [])
+        if rr_critical_latency:
+            rr_sum["critical_wait_max"] = max(rr_critical_latency)
+            rr_sum["critical_wait_mean"] = sum(rr_critical_latency) / len(rr_critical_latency)
+        else:
+            rr_sum["critical_wait_max"] = None
+            rr_sum["critical_wait_mean"] = None
+
+        # Latency aggregation for critical PID
+        critical_latency = waiting_latency.get(1, [])
+        if critical_latency:
+            market_sum["critical_wait_max"] = max(critical_latency)
+            market_sum["critical_wait_mean"] = sum(critical_latency) / len(critical_latency)
+        else:
+            market_sum["critical_wait_max"] = None
+            market_sum["critical_wait_mean"] = None
 
         summary_path = write_summary("out", "forkbomb_summary.json", [rr_sum, market_sum])
 
