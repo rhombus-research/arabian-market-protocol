@@ -1,25 +1,27 @@
-{"tick":0,"scheduler":"MARKET","procs":6,"dispatch_pid":1,"granted_ms":10,"budget_after":50,"state_after":"ACTIVE","last_bid":10}
-{"tick":1,"scheduler":"MARKET","procs":9,"dispatch_pid":1,"granted_ms":10,"budget_after":40,"state_after":"ACTIVE","last_bid":10}
-{"tick":2,"scheduler":"MARKET","procs":12,"dispatch_pid":3,"granted_ms":5,"budget_after":10,"state_after":"THROTTLED","last_bid":5}
-{"tick":3,"scheduler":"MARKET","procs":13,"dispatch_pid":4,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
-{"tick":4,"scheduler":"MARKET","procs":13,"dispatch_pid":5,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
-{"tick":5,"scheduler":"MARKET","procs":13,"dispatch_pid":6,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
-{"tick":6,"scheduler":"MARKET","procs":13,"dispatch_pid":7,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
-{"tick":7,"scheduler":"MARKET","procs":13,"dispatch_pid":8,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
-{"tick":8,"scheduler":"MARKET","procs":13,"dispatch_pid":9,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
-{"tick":9,"scheduler":"MARKET","procs":13,"dispatch_pid":10,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
-{"tick":10,"scheduler":"MARKET","procs":13,"dispatch_pid":1,"granted_ms":10,"budget_after":30,"state_after":"ACTIVE","last_bid":10}
-{"tick":11,"scheduler":"MARKET","procs":13,"dispatch_pid":1,"granted_ms":10,"budget_after":20,"state_after":"ACTIVE","last_bid":10}
-{"tick":12,"scheduler":"MARKET","procs":13,"dispatch_pid":11,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
-{"tick":13,"scheduler":"MARKET","procs":13,"dispatch_pid":12,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
-{"tick":14,"scheduler":"MARKET","procs":13,"dispatch_pid":13,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
-{"tick":15,"scheduler":"MARKET","procs":13,"dispatch_pid":2,"granted_ms":3,"budget_after":57,"state_after":"ACTIVE","last_bid":3}
-{"tick":16,"scheduler":"MARKET","procs":13,"dispatch_pid":2,"granted_ms":3,"budget_after":54,"state_after":"ACTIVE","last_bid":3}
-{"tick":17,"scheduler":"MARKET","procs":13,"dispatch_pid":2,"granted_ms":3,"budget_after":51,"state_after":"ACTIVE","last_bid":3}
-{"tick":18,"scheduler":"MARKET","procs":13,"dispatch_pid":2,"granted_ms":3,"budget_after":48,"state_after":"ACTIVE","last_bid":3}
-{"tick":19,"scheduler":"MARKET","procs":13,"dispatch_pid":2,"granted_ms":3,"budget_after":45,"state_after":"ACTIVE","last_bid":3}
-{"tick":20,"scheduler":"MARKET","procs":13,"dispatch_pid":1,"granted_ms":10,"budget_after":10,"state_after":"ACTIVE","last_bid":10}
-{"tick":21,"scheduler":"MARKET","procs":13,"dispatch_pid":1,"granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
+{"tick":0, "scheduler":"MARKET","procs":6, "dispatch_pid":1, "granted_ms":10,"budget_after":50,"state_after":"ACTIVE","last_bid":10}
+{"tick":1, "scheduler":"MARKET","procs":9, "dispatch_pid":1, "granted_ms":10,"budget_after":40,"state_after":"ACTIVE","last_bid":10}
+{"tick":2, "scheduler":"MARKET","procs":12,"dispatch_pid":3, "granted_ms":5, "budget_after":10,"state_after":"THROTTLED","last_bid":5}
+{"tick":3, "scheduler":"MARKET","procs":13,"dispatch_pid":4, "granted_ms":5, "budget_after":5,"state_after":"THROTTLED","last_bid":5}
+{"tick":4, "scheduler":"MARKET","procs":13,"dispatch_pid":5, "granted_ms":5, "budget_after":5,"state_after":"THROTTLED","last_bid":5}
+{"tick":5, "scheduler":"MARKET","procs":13,"dispatch_pid":6, "granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
+{"tick":6, "scheduler":"MARKET","procs":13,"dispatch_pid":7, "granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
+{"tick":7, "scheduler":"MARKET","procs":13,"dispatch_pid":8, "granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
+{"tick":8, "scheduler":"MARKET","procs":13,"dispatch_pid":9, "granted_ms":5,"budget_after":5,"state_after":"THROTTLED","last_bid":5}
+
+{"tick":9, "scheduler":"MARKET","procs":13,"dispatch_pid":10,"granted_ms":5, "budget_after":5, "state_after":"THROTTLED","last_bid":5}
+{"tick":10,"scheduler":"MARKET","procs":13,"dispatch_pid":1, "granted_ms":10,"budget_after":30,"state_after":"ACTIVE",   "last_bid":10}
+{"tick":11,"scheduler":"MARKET","procs":13,"dispatch_pid":1, "granted_ms":10,"budget_after":20,"state_after":"ACTIVE",   "last_bid":10}
+{"tick":12,"scheduler":"MARKET","procs":13,"dispatch_pid":11,"granted_ms":5, "budget_after":5, "state_after":"THROTTLED","last_bid":5}
+{"tick":13,"scheduler":"MARKET","procs":13,"dispatch_pid":12,"granted_ms":5, "budget_after":5, "state_after":"THROTTLED","last_bid":5}
+{"tick":14,"scheduler":"MARKET","procs":13,"dispatch_pid":13,"granted_ms":5, "budget_after":5, "state_after":"THROTTLED","last_bid":5}
+{"tick":15,"scheduler":"MARKET","procs":13,"dispatch_pid":2, "granted_ms":3, "budget_after":57,"state_after":"ACTIVE",   "last_bid":3}
+{"tick":16,"scheduler":"MARKET","procs":13,"dispatch_pid":2, "granted_ms":3, "budget_after":54,"state_after":"ACTIVE",   "last_bid":3}
+{"tick":17,"scheduler":"MARKET","procs":13,"dispatch_pid":2, "granted_ms":3, "budget_after":51,"state_after":"ACTIVE",   "last_bid":3}
+{"tick":18,"scheduler":"MARKET","procs":13,"dispatch_pid":2, "granted_ms":3, "budget_after":48,"state_after":"ACTIVE",   "last_bid":3}
+{"tick":19,"scheduler":"MARKET","procs":13,"dispatch_pid":2, "granted_ms":3, "budget_after":45,"state_after":"ACTIVE",   "last_bid":3}
+{"tick":20,"scheduler":"MARKET","procs":13,"dispatch_pid":1, "granted_ms":10,"budget_after":10,"state_after":"ACTIVE",   "last_bid":10}
+
+{"tick":21,"scheduler":"MARKET","procs":13,"dispatch_pid":1, "granted_ms":5,"budget_after":5,"state_after":"THROTTLED",   "last_bid":5}
 {"tick":22,"scheduler":"MARKET","procs":13,"dispatch_pid":2,"granted_ms":3,"budget_after":42,"state_after":"ACTIVE","last_bid":3}
 {"tick":23,"scheduler":"MARKET","procs":13,"dispatch_pid":2,"granted_ms":3,"budget_after":39,"state_after":"ACTIVE","last_bid":3}
 {"tick":24,"scheduler":"MARKET","procs":13,"dispatch_pid":2,"granted_ms":3,"budget_after":36,"state_after":"ACTIVE","last_bid":3}

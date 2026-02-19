@@ -13,14 +13,35 @@
         "last_tick": 0,
         "max_gap_ticks": 0,
         "mean_gap_ticks": 0.0
-      }
+      },
+      "critical_wait_max": 0,
+      "critical_wait_mean": 0.0
     },
     {
-      "run_name": "forkbomb_market",
+      "run_name": "forkbomb_market_fee_1",
+      "event_count": 80,
+      "dispatch_count": 80,
+      "max_procs": 27,
+      "fairness_jain_index": 0.43416061801712025,
+      "spawn_fee_ms": 1,
+      "critical": {
+        "critical_pid": 1,
+        "runs": 7,
+        "first_tick": 0,
+        "last_tick": 50,
+        "max_gap_ticks": 29,
+        "mean_gap_ticks": 8.333333333333334
+      },
+      "critical_wait_max": 1,
+      "critical_wait_mean": 0.42857142857142855
+    },
+    {
+      "run_name": "forkbomb_market_fee_5",
       "event_count": 80,
       "dispatch_count": 79,
       "max_procs": 13,
       "fairness_jain_index": 0.4475981886524403,
+      "spawn_fee_ms": 5,
       "critical": {
         "critical_pid": 1,
         "runs": 9,
@@ -28,7 +49,27 @@
         "last_tick": 51,
         "max_gap_ticks": 19,
         "mean_gap_ticks": 6.375
-      }
+      },
+      "critical_wait_max": 1,
+      "critical_wait_mean": 0.4444444444444444
+    },
+    {
+      "run_name": "forkbomb_market_fee_10",
+      "event_count": 80,
+      "dispatch_count": 58,
+      "max_procs": 8,
+      "fairness_jain_index": 0.5152126277414726,
+      "spawn_fee_ms": 10,
+      "critical": {
+        "critical_pid": 1,
+        "runs": 9,
+        "first_tick": 0,
+        "last_tick": 41,
+        "max_gap_ticks": 10,
+        "mean_gap_ticks": 5.125
+      },
+      "critical_wait_max": 1,
+      "critical_wait_mean": 0.4444444444444444
     }
   ]
 }

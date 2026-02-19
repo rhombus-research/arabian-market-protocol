@@ -1,80 +1,80 @@
-{"tick":0,"scheduler":"RR","procs":6,"dispatch_pid":1,"granted_ms":10}
-{"tick":1,"scheduler":"RR","procs":9,"dispatch_pid":2,"granted_ms":3}
-{"tick":2,"scheduler":"RR","procs":12,"dispatch_pid":4,"granted_ms":10}
-{"tick":3,"scheduler":"RR","procs":15,"dispatch_pid":5,"granted_ms":10}
-{"tick":4,"scheduler":"RR","procs":18,"dispatch_pid":6,"granted_ms":10}
-{"tick":5,"scheduler":"RR","procs":21,"dispatch_pid":7,"granted_ms":10}
-{"tick":6,"scheduler":"RR","procs":24,"dispatch_pid":8,"granted_ms":10}
-{"tick":7,"scheduler":"RR","procs":27,"dispatch_pid":9,"granted_ms":10}
-{"tick":8,"scheduler":"RR","procs":30,"dispatch_pid":10,"granted_ms":10}
-{"tick":9,"scheduler":"RR","procs":33,"dispatch_pid":11,"granted_ms":10}
-{"tick":10,"scheduler":"RR","procs":36,"dispatch_pid":11,"granted_ms":10}
-{"tick":11,"scheduler":"RR","procs":39,"dispatch_pid":12,"granted_ms":10}
-{"tick":12,"scheduler":"RR","procs":42,"dispatch_pid":14,"granted_ms":10}
-{"tick":13,"scheduler":"RR","procs":45,"dispatch_pid":15,"granted_ms":10}
-{"tick":14,"scheduler":"RR","procs":48,"dispatch_pid":16,"granted_ms":10}
-{"tick":15,"scheduler":"RR","procs":51,"dispatch_pid":17,"granted_ms":10}
-{"tick":16,"scheduler":"RR","procs":54,"dispatch_pid":18,"granted_ms":10}
-{"tick":17,"scheduler":"RR","procs":57,"dispatch_pid":19,"granted_ms":10}
-{"tick":18,"scheduler":"RR","procs":60,"dispatch_pid":20,"granted_ms":10}
-{"tick":19,"scheduler":"RR","procs":60,"dispatch_pid":21,"granted_ms":10}
-{"tick":20,"scheduler":"RR","procs":60,"dispatch_pid":21,"granted_ms":10}
-{"tick":21,"scheduler":"RR","procs":60,"dispatch_pid":22,"granted_ms":10}
-{"tick":22,"scheduler":"RR","procs":60,"dispatch_pid":24,"granted_ms":10}
-{"tick":23,"scheduler":"RR","procs":60,"dispatch_pid":25,"granted_ms":10}
-{"tick":24,"scheduler":"RR","procs":60,"dispatch_pid":26,"granted_ms":10}
-{"tick":25,"scheduler":"RR","procs":60,"dispatch_pid":27,"granted_ms":10}
-{"tick":26,"scheduler":"RR","procs":60,"dispatch_pid":28,"granted_ms":10}
-{"tick":27,"scheduler":"RR","procs":60,"dispatch_pid":29,"granted_ms":10}
-{"tick":28,"scheduler":"RR","procs":60,"dispatch_pid":30,"granted_ms":10}
-{"tick":29,"scheduler":"RR","procs":60,"dispatch_pid":31,"granted_ms":10}
-{"tick":30,"scheduler":"RR","procs":60,"dispatch_pid":31,"granted_ms":10}
-{"tick":31,"scheduler":"RR","procs":60,"dispatch_pid":32,"granted_ms":10}
-{"tick":32,"scheduler":"RR","procs":60,"dispatch_pid":34,"granted_ms":10}
-{"tick":33,"scheduler":"RR","procs":60,"dispatch_pid":35,"granted_ms":10}
-{"tick":34,"scheduler":"RR","procs":60,"dispatch_pid":36,"granted_ms":10}
-{"tick":35,"scheduler":"RR","procs":60,"dispatch_pid":37,"granted_ms":10}
-{"tick":36,"scheduler":"RR","procs":60,"dispatch_pid":38,"granted_ms":10}
-{"tick":37,"scheduler":"RR","procs":60,"dispatch_pid":39,"granted_ms":10}
-{"tick":38,"scheduler":"RR","procs":60,"dispatch_pid":40,"granted_ms":10}
-{"tick":39,"scheduler":"RR","procs":60,"dispatch_pid":41,"granted_ms":10}
-{"tick":40,"scheduler":"RR","procs":60,"dispatch_pid":41,"granted_ms":10}
-{"tick":41,"scheduler":"RR","procs":60,"dispatch_pid":42,"granted_ms":10}
-{"tick":42,"scheduler":"RR","procs":60,"dispatch_pid":44,"granted_ms":10}
-{"tick":43,"scheduler":"RR","procs":60,"dispatch_pid":45,"granted_ms":10}
-{"tick":44,"scheduler":"RR","procs":60,"dispatch_pid":46,"granted_ms":10}
-{"tick":45,"scheduler":"RR","procs":60,"dispatch_pid":47,"granted_ms":10}
-{"tick":46,"scheduler":"RR","procs":60,"dispatch_pid":48,"granted_ms":10}
-{"tick":47,"scheduler":"RR","procs":60,"dispatch_pid":49,"granted_ms":10}
-{"tick":48,"scheduler":"RR","procs":60,"dispatch_pid":50,"granted_ms":10}
-{"tick":49,"scheduler":"RR","procs":60,"dispatch_pid":51,"granted_ms":10}
-{"tick":50,"scheduler":"RR","procs":60,"dispatch_pid":51,"granted_ms":10}
-{"tick":51,"scheduler":"RR","procs":60,"dispatch_pid":52,"granted_ms":10}
-{"tick":52,"scheduler":"RR","procs":60,"dispatch_pid":54,"granted_ms":10}
-{"tick":53,"scheduler":"RR","procs":60,"dispatch_pid":55,"granted_ms":10}
-{"tick":54,"scheduler":"RR","procs":60,"dispatch_pid":56,"granted_ms":10}
-{"tick":55,"scheduler":"RR","procs":60,"dispatch_pid":57,"granted_ms":10}
-{"tick":56,"scheduler":"RR","procs":60,"dispatch_pid":58,"granted_ms":10}
-{"tick":57,"scheduler":"RR","procs":60,"dispatch_pid":59,"granted_ms":10}
-{"tick":58,"scheduler":"RR","procs":60,"dispatch_pid":60,"granted_ms":10}
-{"tick":59,"scheduler":"RR","procs":60,"dispatch_pid":2,"granted_ms":3}
-{"tick":60,"scheduler":"RR","procs":60,"dispatch_pid":2,"granted_ms":3}
-{"tick":61,"scheduler":"RR","procs":60,"dispatch_pid":3,"granted_ms":10}
-{"tick":62,"scheduler":"RR","procs":60,"dispatch_pid":5,"granted_ms":10}
-{"tick":63,"scheduler":"RR","procs":60,"dispatch_pid":6,"granted_ms":10}
-{"tick":64,"scheduler":"RR","procs":60,"dispatch_pid":7,"granted_ms":10}
-{"tick":65,"scheduler":"RR","procs":60,"dispatch_pid":8,"granted_ms":10}
-{"tick":66,"scheduler":"RR","procs":60,"dispatch_pid":9,"granted_ms":10}
-{"tick":67,"scheduler":"RR","procs":60,"dispatch_pid":10,"granted_ms":10}
-{"tick":68,"scheduler":"RR","procs":60,"dispatch_pid":11,"granted_ms":10}
-{"tick":69,"scheduler":"RR","procs":60,"dispatch_pid":12,"granted_ms":10}
-{"tick":70,"scheduler":"RR","procs":60,"dispatch_pid":12,"granted_ms":10}
-{"tick":71,"scheduler":"RR","procs":60,"dispatch_pid":13,"granted_ms":10}
-{"tick":72,"scheduler":"RR","procs":60,"dispatch_pid":15,"granted_ms":10}
-{"tick":73,"scheduler":"RR","procs":60,"dispatch_pid":16,"granted_ms":10}
-{"tick":74,"scheduler":"RR","procs":60,"dispatch_pid":17,"granted_ms":10}
-{"tick":75,"scheduler":"RR","procs":60,"dispatch_pid":18,"granted_ms":10}
-{"tick":76,"scheduler":"RR","procs":60,"dispatch_pid":19,"granted_ms":10}
-{"tick":77,"scheduler":"RR","procs":60,"dispatch_pid":20,"granted_ms":10}
-{"tick":78,"scheduler":"RR","procs":60,"dispatch_pid":21,"granted_ms":10}
-{"tick":79,"scheduler":"RR","procs":60,"dispatch_pid":22,"granted_ms":10}
+{"tick": 0, "scheduler": "RR", "procs": 6, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
+{"tick": 1, "scheduler": "RR", "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 1}
+{"tick": 2, "scheduler": "RR", "procs": 12, "dispatch_pid": 4, "granted_ms": 10, "waiting_latency": 2}
+{"tick": 3, "scheduler": "RR", "procs": 15, "dispatch_pid": 5, "granted_ms": 10, "waiting_latency": 3}
+{"tick": 4, "scheduler": "RR", "procs": 18, "dispatch_pid": 6, "granted_ms": 10, "waiting_latency": 4}
+{"tick": 5, "scheduler": "RR", "procs": 21, "dispatch_pid": 7, "granted_ms": 10, "waiting_latency": 4}
+{"tick": 6, "scheduler": "RR", "procs": 24, "dispatch_pid": 8, "granted_ms": 10, "waiting_latency": 5}
+{"tick": 7, "scheduler": "RR", "procs": 27, "dispatch_pid": 9, "granted_ms": 10, "waiting_latency": 6}
+{"tick": 8, "scheduler": "RR", "procs": 30, "dispatch_pid": 10, "granted_ms": 10, "waiting_latency": 6}
+{"tick": 9, "scheduler": "RR", "procs": 33, "dispatch_pid": 11, "granted_ms": 10, "waiting_latency": 7}
+{"tick": 10, "scheduler": "RR", "procs": 36, "dispatch_pid": 11, "granted_ms": 10, "waiting_latency": 8}
+{"tick": 11, "scheduler": "RR", "procs": 39, "dispatch_pid": 12, "granted_ms": 10, "waiting_latency": 9}
+{"tick": 12, "scheduler": "RR", "procs": 42, "dispatch_pid": 14, "granted_ms": 10, "waiting_latency": 9}
+{"tick": 13, "scheduler": "RR", "procs": 45, "dispatch_pid": 15, "granted_ms": 10, "waiting_latency": 10}
+{"tick": 14, "scheduler": "RR", "procs": 48, "dispatch_pid": 16, "granted_ms": 10, "waiting_latency": 10}
+{"tick": 15, "scheduler": "RR", "procs": 51, "dispatch_pid": 17, "granted_ms": 10, "waiting_latency": 11}
+{"tick": 16, "scheduler": "RR", "procs": 54, "dispatch_pid": 18, "granted_ms": 10, "waiting_latency": 12}
+{"tick": 17, "scheduler": "RR", "procs": 57, "dispatch_pid": 19, "granted_ms": 10, "waiting_latency": 12}
+{"tick": 18, "scheduler": "RR", "procs": 60, "dispatch_pid": 20, "granted_ms": 10, "waiting_latency": 13}
+{"tick": 19, "scheduler": "RR", "procs": 60, "dispatch_pid": 21, "granted_ms": 10, "waiting_latency": 14}
+{"tick": 20, "scheduler": "RR", "procs": 60, "dispatch_pid": 21, "granted_ms": 10, "waiting_latency": 15}
+{"tick": 21, "scheduler": "RR", "procs": 60, "dispatch_pid": 22, "granted_ms": 10, "waiting_latency": 15}
+{"tick": 22, "scheduler": "RR", "procs": 60, "dispatch_pid": 24, "granted_ms": 10, "waiting_latency": 16}
+{"tick": 23, "scheduler": "RR", "procs": 60, "dispatch_pid": 25, "granted_ms": 10, "waiting_latency": 16}
+{"tick": 24, "scheduler": "RR", "procs": 60, "dispatch_pid": 26, "granted_ms": 10, "waiting_latency": 17}
+{"tick": 25, "scheduler": "RR", "procs": 60, "dispatch_pid": 27, "granted_ms": 10, "waiting_latency": 18}
+{"tick": 26, "scheduler": "RR", "procs": 60, "dispatch_pid": 28, "granted_ms": 10, "waiting_latency": 18}
+{"tick": 27, "scheduler": "RR", "procs": 60, "dispatch_pid": 29, "granted_ms": 10, "waiting_latency": 19}
+{"tick": 28, "scheduler": "RR", "procs": 60, "dispatch_pid": 30, "granted_ms": 10, "waiting_latency": 20}
+{"tick": 29, "scheduler": "RR", "procs": 60, "dispatch_pid": 31, "granted_ms": 10, "waiting_latency": 20}
+{"tick": 30, "scheduler": "RR", "procs": 60, "dispatch_pid": 31, "granted_ms": 10, "waiting_latency": 21}
+{"tick": 31, "scheduler": "RR", "procs": 60, "dispatch_pid": 32, "granted_ms": 10, "waiting_latency": 22}
+{"tick": 32, "scheduler": "RR", "procs": 60, "dispatch_pid": 34, "granted_ms": 10, "waiting_latency": 22}
+{"tick": 33, "scheduler": "RR", "procs": 60, "dispatch_pid": 35, "granted_ms": 10, "waiting_latency": 23}
+{"tick": 34, "scheduler": "RR", "procs": 60, "dispatch_pid": 36, "granted_ms": 10, "waiting_latency": 24}
+{"tick": 35, "scheduler": "RR", "procs": 60, "dispatch_pid": 37, "granted_ms": 10, "waiting_latency": 24}
+{"tick": 36, "scheduler": "RR", "procs": 60, "dispatch_pid": 38, "granted_ms": 10, "waiting_latency": 25}
+{"tick": 37, "scheduler": "RR", "procs": 60, "dispatch_pid": 39, "granted_ms": 10, "waiting_latency": 26}
+{"tick": 38, "scheduler": "RR", "procs": 60, "dispatch_pid": 40, "granted_ms": 10, "waiting_latency": 26}
+{"tick": 39, "scheduler": "RR", "procs": 60, "dispatch_pid": 41, "granted_ms": 10, "waiting_latency": 27}
+{"tick": 40, "scheduler": "RR", "procs": 60, "dispatch_pid": 41, "granted_ms": 10, "waiting_latency": 28}
+{"tick": 41, "scheduler": "RR", "procs": 60, "dispatch_pid": 42, "granted_ms": 10, "waiting_latency": 29}
+{"tick": 42, "scheduler": "RR", "procs": 60, "dispatch_pid": 44, "granted_ms": 10, "waiting_latency": 29}
+{"tick": 43, "scheduler": "RR", "procs": 60, "dispatch_pid": 45, "granted_ms": 10, "waiting_latency": 30}
+{"tick": 44, "scheduler": "RR", "procs": 60, "dispatch_pid": 46, "granted_ms": 10, "waiting_latency": 30}
+{"tick": 45, "scheduler": "RR", "procs": 60, "dispatch_pid": 47, "granted_ms": 10, "waiting_latency": 31}
+{"tick": 46, "scheduler": "RR", "procs": 60, "dispatch_pid": 48, "granted_ms": 10, "waiting_latency": 32}
+{"tick": 47, "scheduler": "RR", "procs": 60, "dispatch_pid": 49, "granted_ms": 10, "waiting_latency": 32}
+{"tick": 48, "scheduler": "RR", "procs": 60, "dispatch_pid": 50, "granted_ms": 10, "waiting_latency": 33}
+{"tick": 49, "scheduler": "RR", "procs": 60, "dispatch_pid": 51, "granted_ms": 10, "waiting_latency": 34}
+{"tick": 50, "scheduler": "RR", "procs": 60, "dispatch_pid": 51, "granted_ms": 10, "waiting_latency": 35}
+{"tick": 51, "scheduler": "RR", "procs": 60, "dispatch_pid": 52, "granted_ms": 10, "waiting_latency": 35}
+{"tick": 52, "scheduler": "RR", "procs": 60, "dispatch_pid": 54, "granted_ms": 10, "waiting_latency": 36}
+{"tick": 53, "scheduler": "RR", "procs": 60, "dispatch_pid": 55, "granted_ms": 10, "waiting_latency": 36}
+{"tick": 54, "scheduler": "RR", "procs": 60, "dispatch_pid": 56, "granted_ms": 10, "waiting_latency": 37}
+{"tick": 55, "scheduler": "RR", "procs": 60, "dispatch_pid": 57, "granted_ms": 10, "waiting_latency": 38}
+{"tick": 56, "scheduler": "RR", "procs": 60, "dispatch_pid": 58, "granted_ms": 10, "waiting_latency": 38}
+{"tick": 57, "scheduler": "RR", "procs": 60, "dispatch_pid": 59, "granted_ms": 10, "waiting_latency": 39}
+{"tick": 58, "scheduler": "RR", "procs": 60, "dispatch_pid": 60, "granted_ms": 10, "waiting_latency": 40}
+{"tick": 59, "scheduler": "RR", "procs": 60, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 59}
+{"tick": 60, "scheduler": "RR", "procs": 60, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 60}
+{"tick": 61, "scheduler": "RR", "procs": 60, "dispatch_pid": 3, "granted_ms": 10, "waiting_latency": 61}
+{"tick": 62, "scheduler": "RR", "procs": 60, "dispatch_pid": 5, "granted_ms": 10, "waiting_latency": 62}
+{"tick": 63, "scheduler": "RR", "procs": 60, "dispatch_pid": 6, "granted_ms": 10, "waiting_latency": 63}
+{"tick": 64, "scheduler": "RR", "procs": 60, "dispatch_pid": 7, "granted_ms": 10, "waiting_latency": 63}
+{"tick": 65, "scheduler": "RR", "procs": 60, "dispatch_pid": 8, "granted_ms": 10, "waiting_latency": 64}
+{"tick": 66, "scheduler": "RR", "procs": 60, "dispatch_pid": 9, "granted_ms": 10, "waiting_latency": 65}
+{"tick": 67, "scheduler": "RR", "procs": 60, "dispatch_pid": 10, "granted_ms": 10, "waiting_latency": 65}
+{"tick": 68, "scheduler": "RR", "procs": 60, "dispatch_pid": 11, "granted_ms": 10, "waiting_latency": 66}
+{"tick": 69, "scheduler": "RR", "procs": 60, "dispatch_pid": 12, "granted_ms": 10, "waiting_latency": 67}
+{"tick": 70, "scheduler": "RR", "procs": 60, "dispatch_pid": 12, "granted_ms": 10, "waiting_latency": 68}
+{"tick": 71, "scheduler": "RR", "procs": 60, "dispatch_pid": 13, "granted_ms": 10, "waiting_latency": 68}
+{"tick": 72, "scheduler": "RR", "procs": 60, "dispatch_pid": 15, "granted_ms": 10, "waiting_latency": 69}
+{"tick": 73, "scheduler": "RR", "procs": 60, "dispatch_pid": 16, "granted_ms": 10, "waiting_latency": 69}
+{"tick": 74, "scheduler": "RR", "procs": 60, "dispatch_pid": 17, "granted_ms": 10, "waiting_latency": 70}
+{"tick": 75, "scheduler": "RR", "procs": 60, "dispatch_pid": 18, "granted_ms": 10, "waiting_latency": 71}
+{"tick": 76, "scheduler": "RR", "procs": 60, "dispatch_pid": 19, "granted_ms": 10, "waiting_latency": 71}
+{"tick": 77, "scheduler": "RR", "procs": 60, "dispatch_pid": 20, "granted_ms": 10, "waiting_latency": 72}
+{"tick": 78, "scheduler": "RR", "procs": 60, "dispatch_pid": 21, "granted_ms": 10, "waiting_latency": 73}
+{"tick": 79, "scheduler": "RR", "procs": 60, "dispatch_pid": 22, "granted_ms": 10, "waiting_latency": 73}
