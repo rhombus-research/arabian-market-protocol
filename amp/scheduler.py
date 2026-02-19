@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from typing import Sequence
+from typing import List
 
 from amp.config import (
     THROTTLE_AT_MS,
@@ -10,6 +11,7 @@ from amp.config import (
 )
 from amp.sijil import ExecutionState, SijilRecord
 from amp.process import Process, ProcessState
+from amp.workloads import ForkBombSpawner, ConstantDemand
 
 @dataclass(slots=True)
 class Dispatch:
@@ -84,3 +86,50 @@ class MarketScheduler:
             r.state = ExecutionState.BANKRUPT
 
         return Dispatch(pid=best_pid, granted_ms=grant)
+
+    def forkbomb_spawn(self, processes: List[Process], tick: int, spawner: ForkBombSpawner, parent_pid: int) -> int:
+        root = self._records.get(parent_pid)
+        if root is None:
+            return 0
+        if root.state is ExecutionState.BANKRUPT or root.budget <= 0:
+            return 0
+
+        desired = spawner.new_children(tick=tick, current_total=len(processes))
+        if desired <= 0:
+            return 0
+
+        affordable = desired
+        if spawner.spawn_fee_ms > 0:
+            max_affordable = root.budget // spawner.spawn_fee_ms
+            if affordable > max_affordable:
+                affordable = max_affordable
+
+        spawned = 0
+        for _ in range(affordable):
+            root.budget -= spawner.spawn_fee_ms
+            root.spent += spawner.spawn_fee_ms
+
+            if root.budget <= 0:
+                root.budget = 0
+                root.state = ExecutionState.BANKRUPT
+                break
+
+            new_pid = max(p.pid for p in processes) + 1
+            processes.append(
+                Process(
+                    pid=new_pid,
+                    name=f"attacker-{new_pid}",
+                    demand=ConstantDemand(ms=spawner.child_demand_ms),
+                )
+            )
+            self._records[new_pid] = SijilRecord(
+                pid=new_pid,
+                budget=spawner.child_start_budget_ms,
+                spent=0,
+                state=ExecutionState.ACTIVE,
+                last_bid=0,
+            )
+            spawned += 1
+
+        assert root.budget >= 0
+        return spawned

@@ -193,32 +193,41 @@ def run_forkbomb_rr_and_market() -> None:
             # - New children are not minted with full DEFAULT_BUDGET_MS
             # - Root attacker pays a spawn fee per child
             # - Each child starts with a small budget (child_start_budget_ms)
-            root = records[attacker_root_pid]
 
-            desired = spawner.new_children(tick=tick, current_total=len(market_procs))
-            affordable = 0
+            # root = records[attacker_root_pid]
+            #
+            # desired = spawner.new_children(tick=tick, current_total=len(market_procs))
+            # affordable = 0
+            #
+            # if root.state is not ExecutionState.BANKRUPT and root.budget > 0:
+            #     max_affordable = root.budget // spawner.spawn_fee_ms if spawner.spawn_fee_ms > 0 else desired
+            #     affordable = desired if desired <= max_affordable else max_affordable
+            #
+            # for _ in range(affordable):
+            #     root.budget -= spawner.spawn_fee_ms
+            #     root.spent += spawner.spawn_fee_ms
+            #     if root.budget <= 0:
+            #         root.budget = 0
+            #         root.state = ExecutionState.BANKRUPT
+            #         break
+            #
+            #     new_pid = max(p.pid for p in market_procs) + 1
+            #     market_procs.append(Process(pid=new_pid, name=f"attacker-{new_pid}", demand=ConstantDemand(ms=10)))
+            #     records[new_pid] = SijilRecord(
+            #         pid=new_pid,
+            #         budget=spawner.child_start_budget_ms,
+            #         spent=0,
+            #         state=ExecutionState.ACTIVE,
+            #         last_bid=0,
+            #     )
 
-            if root.state is not ExecutionState.BANKRUPT and root.budget > 0:
-                max_affordable = root.budget // spawner.spawn_fee_ms if spawner.spawn_fee_ms > 0 else desired
-                affordable = desired if desired <= max_affordable else max_affordable
-
-            for _ in range(affordable):
-                root.budget -= spawner.spawn_fee_ms
-                root.spent += spawner.spawn_fee_ms
-                if root.budget <= 0:
-                    root.budget = 0
-                    root.state = ExecutionState.BANKRUPT
-                    break
-
-                new_pid = max(p.pid for p in market_procs) + 1
-                market_procs.append(Process(pid=new_pid, name=f"attacker-{new_pid}", demand=ConstantDemand(ms=10)))
-                records[new_pid] = SijilRecord(
-                    pid=new_pid,
-                    budget=spawner.child_start_budget_ms,
-                    spent=0,
-                    state=ExecutionState.ACTIVE,
-                    last_bid=0,
-                )
+            # Protocol spawn economics
+            market.forkbomb_spawn(
+                processes=market_procs,
+                tick=tick,
+                spawner=spawner,
+                parent_pid=attacker_root_pid,
+            )
 
             d = market.select(market_procs, tick=tick, slice_ms=DEFAULT_SLICE_MS)
 
