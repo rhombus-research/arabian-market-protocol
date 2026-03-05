@@ -158,7 +158,21 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
                     }
                 )
 
-            # Step 3: track runnable arrival for latency measurement
+            # Step 3: mint — replenish budgets before selection
+            mint_events = market.mint(market_procs)
+            for m in mint_events:
+                market_rec.add(
+                    {
+                        "tick": tick,
+                        "event": "mint",
+                        "scheduler": "MARKET",
+                        "pid": m["pid"],
+                        "minted_ms": m["minted_ms"],
+                        "state": m["state"],
+                    }
+                )
+
+            # Step 4: track runnable arrival for latency measurement
             for p in market_procs:
                 demand = p.demand.demand_ms(tick)
                 if demand > 0:
@@ -168,7 +182,7 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
                     if p.pid in runnable_since:
                         del runnable_since[p.pid]
 
-            # Step 4: select and dispatch
+            # Step 5: select and dispatch
             d = market.select(market_procs, tick=tick, slice_ms=DEFAULT_SLICE_MS)
 
             latency = None
@@ -227,7 +241,7 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
 def run_forkbomb_rr_and_market() -> None:
     os.makedirs("out", exist_ok=True)
 
-    ticks = 80
+    ticks = 2000
 
     rr_spawner = ForkBombSpawner(
         spawn_every=1,

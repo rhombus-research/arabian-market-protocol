@@ -2,10 +2,10 @@
   "summaries": [
     {
       "run_name": "forkbomb_rr",
-      "event_count": 80,
-      "dispatch_count": 80,
+      "event_count": 2000,
+      "dispatch_count": 2000,
       "max_procs": 60,
-      "fairness_jain_index": 0.847855913353527,
+      "fairness_jain_index": 0.888676412822571,
       "critical": {
         "critical_pid": 1,
         "runs": 1,
@@ -19,60 +19,60 @@
     },
     {
       "run_name": "forkbomb_market_fee_1",
-      "event_count": 108,
-      "dispatch_count": 80,
-      "max_procs": 27,
-      "fairness_jain_index": 0.43416061801712025,
+      "event_count": 82071,
+      "dispatch_count": 2000,
+      "max_procs": 40,
+      "fairness_jain_index": 0.8205060881551741,
       "spawn_fee_ms": 1,
       "critical": {
         "critical_pid": 1,
-        "runs": 7,
+        "runs": 400,
         "first_tick": 0,
-        "last_tick": 50,
-        "max_gap_ticks": 29,
-        "mean_gap_ticks": 8.333333333333334
+        "last_tick": 1991,
+        "max_gap_ticks": 9,
+        "mean_gap_ticks": 4.989974937343359
       },
-      "critical_dispatch_ratio": 0.0875,
+      "critical_dispatch_ratio": 0.2,
       "critical_wait_max": 0,
       "critical_wait_mean": 0.0,
       "attacker_bankrupt": true
     },
     {
       "run_name": "forkbomb_market_fee_5",
-      "event_count": 94,
-      "dispatch_count": 79,
-      "max_procs": 13,
-      "fairness_jain_index": 0.4475981886524403,
+      "event_count": 30653,
+      "dispatch_count": 2000,
+      "max_procs": 14,
+      "fairness_jain_index": 0.8328287934649876,
       "spawn_fee_ms": 5,
       "critical": {
         "critical_pid": 1,
-        "runs": 9,
+        "runs": 400,
         "first_tick": 0,
-        "last_tick": 51,
-        "max_gap_ticks": 19,
-        "mean_gap_ticks": 6.375
+        "last_tick": 1991,
+        "max_gap_ticks": 9,
+        "mean_gap_ticks": 4.989974937343359
       },
-      "critical_dispatch_ratio": 0.11392405063291139,
+      "critical_dispatch_ratio": 0.2,
       "critical_wait_max": 0,
       "critical_wait_mean": 0.0,
       "attacker_bankrupt": true
     },
     {
       "run_name": "forkbomb_market_fee_10",
-      "event_count": 88,
-      "dispatch_count": 58,
-      "max_procs": 8,
-      "fairness_jain_index": 0.5152126277414726,
+      "event_count": 20141,
+      "dispatch_count": 2000,
+      "max_procs": 9,
+      "fairness_jain_index": 0.9397260273972603,
       "spawn_fee_ms": 10,
       "critical": {
         "critical_pid": 1,
-        "runs": 9,
+        "runs": 400,
         "first_tick": 0,
-        "last_tick": 41,
-        "max_gap_ticks": 10,
-        "mean_gap_ticks": 5.125
+        "last_tick": 1991,
+        "max_gap_ticks": 9,
+        "mean_gap_ticks": 4.989974937343359
       },
-      "critical_dispatch_ratio": 0.15517241379310345,
+      "critical_dispatch_ratio": 0.2,
       "critical_wait_max": 0,
       "critical_wait_mean": 0.0,
       "attacker_bankrupt": true

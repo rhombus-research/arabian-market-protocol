@@ -8,6 +8,8 @@ from amp.config import (
     THROTTLE_AT_MS,
     THROTTLE_PENALTY_DEN,
     THROTTLE_PENALTY_NUM,
+    MINT_RATE_ACTIVE_MS,
+    MINT_RATE_THROTTLED_MS,
 )
 from amp.sijil import ExecutionState, SijilRecord
 from amp.process import Process, ProcessState
@@ -80,11 +82,33 @@ class MarketScheduler:
                 transitions.append(StateTransition(pid=p.pid, state_before=before, state_after=after))
         return transitions
 
+    def mint(self, processes: Sequence[Process]) -> list[dict]:
+        """
+        Apply per-tick budget replenishment based on process state.
+        ACTIVE receives full mint rate, THROTTLED receives reduced rate.
+        BANKRUPT receives nothing — bankruptcy is a terminal state without explicit recovery.
+        Returns a list of mint event dicts for logging.
+        """
+        events = []
+        for p in processes:
+            r = self._records.get(p.pid)
+            if r is None or r.state is ExecutionState.BANKRUPT:
+                continue
+
+            if r.state is ExecutionState.ACTIVE:
+                r.budget += MINT_RATE_ACTIVE_MS
+                events.append({"pid": p.pid, "minted_ms": MINT_RATE_ACTIVE_MS, "state": r.state.name})
+            elif r.state is ExecutionState.THROTTLED:
+                r.budget += MINT_RATE_THROTTLED_MS
+                events.append({"pid": p.pid, "minted_ms": MINT_RATE_THROTTLED_MS, "state": r.state.name})
+
+        return events
+
     def select(self, processes: Sequence[Process], tick: int, slice_ms: int) -> Dispatch:
         """
         Select one process for execution this tick.
         Reads state as a precondition — does not modify state.
-        Budget debit and bankruptcy transition on grant only.
+        Budget debit only — state transitions handled by reconcile_states().
         """
         best_pid: int | None = None
         best_bid = 0
