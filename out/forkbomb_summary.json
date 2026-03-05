@@ -32,8 +32,10 @@
         "max_gap_ticks": 29,
         "mean_gap_ticks": 8.333333333333334
       },
-      "critical_wait_max": 1,
-      "critical_wait_mean": 0.42857142857142855
+      "critical_dispatch_ratio": 0.0875,
+      "critical_wait_max": 0,
+      "critical_wait_mean": 0.0,
+      "attacker_bankrupt": true
     },
     {
       "run_name": "forkbomb_market_fee_5",
@@ -50,8 +52,10 @@
         "max_gap_ticks": 19,
         "mean_gap_ticks": 6.375
       },
-      "critical_wait_max": 1,
-      "critical_wait_mean": 0.4444444444444444
+      "critical_dispatch_ratio": 0.11392405063291139,
+      "critical_wait_max": 0,
+      "critical_wait_mean": 0.0,
+      "attacker_bankrupt": true
     },
     {
       "run_name": "forkbomb_market_fee_10",
@@ -68,8 +72,10 @@
         "max_gap_ticks": 10,
         "mean_gap_ticks": 5.125
       },
-      "critical_wait_max": 1,
-      "critical_wait_mean": 0.4444444444444444
+      "critical_dispatch_ratio": 0.15517241379310345,
+      "critical_wait_max": 0,
+      "critical_wait_mean": 0.0,
+      "attacker_bankrupt": true
     }
   ]
 }

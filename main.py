@@ -147,6 +147,9 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
                 latency = tick - start_tick
                 waiting_latency.setdefault(d.pid, []).append(latency)
 
+                # Reset arrival to next tick to measure cyclic queueing delay
+                runnable_since[d.pid] = tick + 1
+
             out.write(
                 f"tick={tick:02d} procs={len(market_procs):02d} dispatch pid={d.pid} grant_ms={d.granted_ms}\n"
             )
@@ -168,9 +171,27 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
     market_sum["spawn_fee_ms"] = spawner.spawn_fee_ms
     market_sum["critical"] = critical_responsiveness(market_rec._events, critical_pid=1)
 
+    critical_runs = market_sum["critical"]["runs"]
+    total_dispatches = sum(1 for e in market_rec._events if e["dispatch_pid"] is not None)
+
+    critical_dispatch_ratio = (
+        critical_runs / total_dispatches if total_dispatches > 0 else 0
+    )
+
+    market_sum["critical_dispatch_ratio"] = critical_dispatch_ratio
+
     wmax, wmean = _aggregate_waiting_latency(waiting_latency, pid=1)
     market_sum["critical_wait_max"] = wmax
     market_sum["critical_wait_mean"] = wmean
+    market_sum["attacker_bankrupt"] = any(
+        r.state == ExecutionState.BANKRUPT for r in records.values()
+    )
+
+    # max_purchasable_slices = DEFAULT_BUDGET_MS // DEFAULT_SLICE_MS
+    #
+    # if market_sum["critical"]["max_gap_ticks"] > max_purchasable_slices:
+    #     raise AssertionError("Critical workload gap exceeded adversary budget bound")
+
     return market_sum
 
 

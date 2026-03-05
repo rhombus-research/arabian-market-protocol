@@ -3,6 +3,8 @@
 **Project:** Arabian Market Protocol (AMP)  
 **Focus:** Simulation implementation, adversarial workloads, and initial validation
 
+*[This document was generated with AI assistance.]*
+
 ---
 
 ## 1. Scope and Objectives for This Period
