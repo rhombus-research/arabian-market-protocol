@@ -1,80 +1,94 @@
-{"tick": 0, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 6, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
-{"tick": 1, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
-{"tick": 2, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 12, "dispatch_pid": 3, "granted_ms": 5, "waiting_latency": 2}
-{"tick": 3, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 4, "granted_ms": 5, "waiting_latency": 3}
-{"tick": 4, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 5, "granted_ms": 5, "waiting_latency": 4}
-{"tick": 5, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 6, "granted_ms": 5, "waiting_latency": 5}
-{"tick": 6, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 7, "granted_ms": 5, "waiting_latency": 5}
-{"tick": 7, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 8, "granted_ms": 5, "waiting_latency": 6}
-{"tick": 8, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 9, "granted_ms": 5, "waiting_latency": 7}
-{"tick": 9, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 10, "granted_ms": 5, "waiting_latency": 7}
-{"tick": 10, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
-{"tick": 11, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
-{"tick": 12, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 11, "granted_ms": 5, "waiting_latency": 10}
-{"tick": 13, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 12, "granted_ms": 5, "waiting_latency": 11}
-{"tick": 14, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 13, "granted_ms": 5, "waiting_latency": 11}
-{"tick": 15, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 15}
-{"tick": 16, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 17, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 18, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 19, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 20, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
-{"tick": 21, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 5, "waiting_latency": 0}
-{"tick": 22, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 2}
-{"tick": 23, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 24, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 25, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 26, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 27, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 28, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 29, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 30, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 31, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 32, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 4, "granted_ms": 2, "waiting_latency": 28}
-{"tick": 33, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 5, "granted_ms": 2, "waiting_latency": 28}
-{"tick": 34, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 6, "granted_ms": 2, "waiting_latency": 28}
-{"tick": 35, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 7, "granted_ms": 2, "waiting_latency": 28}
-{"tick": 36, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 8, "granted_ms": 2, "waiting_latency": 28}
-{"tick": 37, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 9, "granted_ms": 2, "waiting_latency": 28}
-{"tick": 38, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 10, "granted_ms": 2, "waiting_latency": 28}
-{"tick": 39, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 11, "granted_ms": 2, "waiting_latency": 26}
-{"tick": 40, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 2, "waiting_latency": 0}
-{"tick": 41, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 12, "granted_ms": 2, "waiting_latency": 27}
-{"tick": 42, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 13, "granted_ms": 2, "waiting_latency": 27}
-{"tick": 43, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 11}
-{"tick": 44, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 45, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 46, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 47, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 48, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 49, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 50, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 51, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 52, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 2}
-{"tick": 53, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 54, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 55, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 56, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 57, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 58, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 59, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 4, "granted_ms": 1, "waiting_latency": 26}
-{"tick": 60, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 4, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 61, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 5, "granted_ms": 1, "waiting_latency": 27}
-{"tick": 62, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 5, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 63, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 6, "granted_ms": 1, "waiting_latency": 28}
-{"tick": 64, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 6, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 65, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 7, "granted_ms": 1, "waiting_latency": 29}
-{"tick": 66, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 7, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 67, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 8, "granted_ms": 1, "waiting_latency": 30}
-{"tick": 68, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 8, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 69, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 9, "granted_ms": 1, "waiting_latency": 31}
-{"tick": 70, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 9, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 71, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 10, "granted_ms": 1, "waiting_latency": 32}
-{"tick": 72, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 10, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 73, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 11, "granted_ms": 1, "waiting_latency": 33}
-{"tick": 74, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 11, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 75, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 12, "granted_ms": 1, "waiting_latency": 33}
-{"tick": 76, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 12, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 77, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 13, "granted_ms": 1, "waiting_latency": 34}
-{"tick": 78, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 13, "granted_ms": 1, "waiting_latency": 0}
-{"tick": 79, "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
+{"tick": 0, "event": "state_transition", "scheduler": "MARKET", "pid": 4, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 0, "event": "state_transition", "scheduler": "MARKET", "pid": 5, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 0, "event": "state_transition", "scheduler": "MARKET", "pid": 6, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 0, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 6, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
+{"tick": 1, "event": "state_transition", "scheduler": "MARKET", "pid": 7, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 1, "event": "state_transition", "scheduler": "MARKET", "pid": 8, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 1, "event": "state_transition", "scheduler": "MARKET", "pid": 9, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 1, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
+{"tick": 2, "event": "state_transition", "scheduler": "MARKET", "pid": 3, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 2, "event": "state_transition", "scheduler": "MARKET", "pid": 10, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 2, "event": "state_transition", "scheduler": "MARKET", "pid": 11, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 2, "event": "state_transition", "scheduler": "MARKET", "pid": 12, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 2, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 12, "dispatch_pid": 3, "granted_ms": 5, "waiting_latency": 2}
+{"tick": 3, "event": "state_transition", "scheduler": "MARKET", "pid": 3, "state_before": "THROTTLED", "state_after": "BANKRUPT"}
+{"tick": 3, "event": "state_transition", "scheduler": "MARKET", "pid": 13, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 3, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 4, "granted_ms": 5, "waiting_latency": 3}
+{"tick": 4, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 5, "granted_ms": 5, "waiting_latency": 4}
+{"tick": 5, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 6, "granted_ms": 5, "waiting_latency": 5}
+{"tick": 6, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 7, "granted_ms": 5, "waiting_latency": 5}
+{"tick": 7, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 8, "granted_ms": 5, "waiting_latency": 6}
+{"tick": 8, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 9, "granted_ms": 5, "waiting_latency": 7}
+{"tick": 9, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 10, "granted_ms": 5, "waiting_latency": 7}
+{"tick": 10, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
+{"tick": 11, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
+{"tick": 12, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 11, "granted_ms": 5, "waiting_latency": 10}
+{"tick": 13, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 12, "granted_ms": 5, "waiting_latency": 11}
+{"tick": 14, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 13, "granted_ms": 5, "waiting_latency": 11}
+{"tick": 15, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 15}
+{"tick": 16, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 17, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 18, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 19, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 20, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
+{"tick": 21, "event": "state_transition", "scheduler": "MARKET", "pid": 1, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 21, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 5, "waiting_latency": 0}
+{"tick": 22, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 2}
+{"tick": 23, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 24, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 25, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 26, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 27, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 28, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 29, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 30, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 31, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 32, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 32, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 4, "granted_ms": 2, "waiting_latency": 28}
+{"tick": 33, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 5, "granted_ms": 2, "waiting_latency": 28}
+{"tick": 34, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 6, "granted_ms": 2, "waiting_latency": 28}
+{"tick": 35, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 7, "granted_ms": 2, "waiting_latency": 28}
+{"tick": 36, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 8, "granted_ms": 2, "waiting_latency": 28}
+{"tick": 37, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 9, "granted_ms": 2, "waiting_latency": 28}
+{"tick": 38, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 10, "granted_ms": 2, "waiting_latency": 28}
+{"tick": 39, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 11, "granted_ms": 2, "waiting_latency": 26}
+{"tick": 40, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 2, "waiting_latency": 0}
+{"tick": 41, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 12, "granted_ms": 2, "waiting_latency": 27}
+{"tick": 42, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 13, "granted_ms": 2, "waiting_latency": 27}
+{"tick": 43, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 11}
+{"tick": 44, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 45, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 46, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 47, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 48, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 49, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 50, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 51, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 1, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 52, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 2}
+{"tick": 53, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 54, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 55, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 56, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 57, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 58, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 59, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 4, "granted_ms": 1, "waiting_latency": 26}
+{"tick": 60, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 4, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 61, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 5, "granted_ms": 1, "waiting_latency": 27}
+{"tick": 62, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 5, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 63, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 6, "granted_ms": 1, "waiting_latency": 28}
+{"tick": 64, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 6, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 65, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 7, "granted_ms": 1, "waiting_latency": 29}
+{"tick": 66, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 7, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 67, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 8, "granted_ms": 1, "waiting_latency": 30}
+{"tick": 68, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 8, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 69, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 9, "granted_ms": 1, "waiting_latency": 31}
+{"tick": 70, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 9, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 71, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 10, "granted_ms": 1, "waiting_latency": 32}
+{"tick": 72, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 10, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 73, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 11, "granted_ms": 1, "waiting_latency": 33}
+{"tick": 74, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 11, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 75, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 12, "granted_ms": 1, "waiting_latency": 33}
+{"tick": 76, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 12, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 77, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 13, "granted_ms": 1, "waiting_latency": 34}
+{"tick": 78, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": 13, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 79, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 5, "procs": 13, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}

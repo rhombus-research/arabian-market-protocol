@@ -19,7 +19,7 @@
     },
     {
       "run_name": "forkbomb_market_fee_1",
-      "event_count": 80,
+      "event_count": 108,
       "dispatch_count": 80,
       "max_procs": 27,
       "fairness_jain_index": 0.43416061801712025,
@@ -39,7 +39,7 @@
     },
     {
       "run_name": "forkbomb_market_fee_5",
-      "event_count": 80,
+      "event_count": 94,
       "dispatch_count": 79,
       "max_procs": 13,
       "fairness_jain_index": 0.4475981886524403,
@@ -59,7 +59,7 @@
     },
     {
       "run_name": "forkbomb_market_fee_10",
-      "event_count": 80,
+      "event_count": 88,
       "dispatch_count": 58,
       "max_procs": 8,
       "fairness_jain_index": 0.5152126277414726,

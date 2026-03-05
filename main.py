@@ -123,13 +123,42 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
         out.write(f"=== Market (Fork Bomb) fee={spawner.spawn_fee_ms} ===\n")
 
         for tick in range(ticks):
-            market.forkbomb_spawn(
+            # Step 1: spawn before state reconciliation
+            spawned, spawn_bankruptcy = market.forkbomb_spawn(
                 processes=market_procs,
                 tick=tick,
                 spawner=spawner,
                 parent_pid=attacker_root_pid,
             )
 
+            # Log bankruptcy caused by spawn fee exhaustion
+            if spawn_bankruptcy is not None:
+                market_rec.add(
+                    {
+                        "tick": tick,
+                        "event": "state_transition",
+                        "scheduler": "MARKET",
+                        "pid": spawn_bankruptcy.pid,
+                        "state_before": spawn_bankruptcy.state_before.name,
+                        "state_after": spawn_bankruptcy.state_after.name,
+                    }
+                )
+
+            # Step 2: reconcile states — discrete transitions logged before selection
+            transitions = market.reconcile_states(market_procs)
+            for t in transitions:
+                market_rec.add(
+                    {
+                        "tick": tick,
+                        "event": "state_transition",
+                        "scheduler": "MARKET",
+                        "pid": t.pid,
+                        "state_before": t.state_before.name,
+                        "state_after": t.state_after.name,
+                    }
+                )
+
+            # Step 3: track runnable arrival for latency measurement
             for p in market_procs:
                 demand = p.demand.demand_ms(tick)
                 if demand > 0:
@@ -139,6 +168,7 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
                     if p.pid in runnable_since:
                         del runnable_since[p.pid]
 
+            # Step 4: select and dispatch
             d = market.select(market_procs, tick=tick, slice_ms=DEFAULT_SLICE_MS)
 
             latency = None
@@ -156,6 +186,7 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
             market_rec.add(
                 {
                     "tick": tick,
+                    "event": "dispatch",
                     "scheduler": "MARKET",
                     "spawn_fee_ms": spawner.spawn_fee_ms,
                     "procs": len(market_procs),
@@ -167,12 +198,15 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
 
     _write_jsonl(jsonl_path, market_rec._events)
 
+    # Summary filters on dispatch events only
+    dispatch_events = [e for e in market_rec._events if e.get("event") == "dispatch"]
+
     market_sum = market_rec.summary()
     market_sum["spawn_fee_ms"] = spawner.spawn_fee_ms
-    market_sum["critical"] = critical_responsiveness(market_rec._events, critical_pid=1)
+    market_sum["critical"] = critical_responsiveness(dispatch_events, critical_pid=1)
 
     critical_runs = market_sum["critical"]["runs"]
-    total_dispatches = sum(1 for e in market_rec._events if e["dispatch_pid"] is not None)
+    total_dispatches = sum(1 for e in dispatch_events if e["dispatch_pid"] is not None)
 
     critical_dispatch_ratio = (
         critical_runs / total_dispatches if total_dispatches > 0 else 0
@@ -186,11 +220,6 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
     market_sum["attacker_bankrupt"] = any(
         r.state == ExecutionState.BANKRUPT for r in records.values()
     )
-
-    # max_purchasable_slices = DEFAULT_BUDGET_MS // DEFAULT_SLICE_MS
-    #
-    # if market_sum["critical"]["max_gap_ticks"] > max_purchasable_slices:
-    #     raise AssertionError("Critical workload gap exceeded adversary budget bound")
 
     return market_sum
 
