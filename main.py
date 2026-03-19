@@ -4,7 +4,7 @@ import json
 import os
 from typing import Any
 
-from amp.config import CHILD_START_BUDGET_MS, DEFAULT_BUDGET_MS, DEFAULT_SLICE_MS, SPAWN_FEE_MS
+from amp.config import CHILD_START_BUDGET_MS, DEFAULT_BUDGET_MS, DEFAULT_SLICE_MS, SPAWN_FEE_MS, MINT_RATE_THROTTLED_MS
 from amp.sijil import ExecutionState, SijilRecord
 from amp.metrics import MetricsRecorder, critical_responsiveness, write_summary
 from amp.process import Process
@@ -313,7 +313,8 @@ def run_rr_cryptojacking(ticks: int, jsonl_path: str, txt_path: str) -> dict[str
     return rr_sum
 
 
-def run_market_cryptojacking(ticks: int, jsonl_path: str, txt_path: str) -> dict[str, Any]:
+def run_market_cryptojacking(ticks: int, jsonl_path: str, txt_path: str,
+                             mint_rate_throttled: int = MINT_RATE_THROTTLED_MS) -> dict[str, Any]:
     """Run the cryptojacking workload against the MarketScheduler.
 
     No spawner — single attacker process (pid 3) with constant max demand.
@@ -362,7 +363,7 @@ def run_market_cryptojacking(ticks: int, jsonl_path: str, txt_path: str) -> dict
                 )
 
             # Step 2: mint
-            mint_events = market.mint(market_procs)
+            mint_events = market.mint(market_procs, mint_rate_throttled=mint_rate_throttled)
             for m in mint_events:
                 market_rec.add(
                     {
@@ -518,7 +519,29 @@ def run_forkbomb_rr_and_market() -> None:
     summary_path = write_summary("out", "forkbomb_summary.json", [rr_sum] + market_results)
     print(f"Wrote summary: {summary_path}")
 
+def run_mint_sweep() -> None:
+    os.makedirs("out", exist_ok=True)
+
+    ticks = 2000
+    sweep_rates = list(range(0, 11))
+    results = []
+
+    for rate in sweep_rates:
+        market_sum = run_market_cryptojacking(
+            ticks=ticks,
+            jsonl_path=os.path.join("out", f"mint_sweep_throttled_{rate}.jsonl"),
+            txt_path=os.path.join("out", f"mint_sweep_throttled_{rate}.txt"),
+            mint_rate_throttled=rate,
+        )
+        market_sum["mint_rate_throttled"] = rate
+        results.append(market_sum)
+        print(f"  rate={rate} bankrupt={market_sum['attacker_bankrupt']} bankruptcy_tick={market_sum['attacker_bankruptcy_tick']}")
+
+    summary_path = write_summary("out", "mint_sweep_summary.json", results)
+    print(f"Wrote summary: {summary_path}")
+
 
 if __name__ == "__main__":
     run_forkbomb_rr_and_market()
     run_cryptojacking_rr_and_market()
+    run_mint_sweep()

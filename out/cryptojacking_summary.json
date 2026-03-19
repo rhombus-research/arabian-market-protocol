@@ -2,8 +2,8 @@
   "summaries": [
     {
       "run_name": "cryptojack_rr",
-      "event_count": 10000,
-      "dispatch_count": 10000,
+      "event_count": 2000,
+      "dispatch_count": 2000,
       "max_procs": 3,
       "fairness_jain_index": 0.7316017316017316,
       "workload": "cryptojacking",
@@ -11,9 +11,9 @@
       "spawn_fee_ms": null,
       "critical": {
         "critical_pid": 1,
-        "runs": 1000,
+        "runs": 200,
         "first_tick": 0,
-        "last_tick": 9990,
+        "last_tick": 1990,
         "max_gap_ticks": 10,
         "mean_gap_ticks": 10.0
       },
@@ -22,20 +22,20 @@
     },
     {
       "run_name": "cryptojack_market",
-      "event_count": 40001,
-      "dispatch_count": 10000,
+      "event_count": 8008,
+      "dispatch_count": 2000,
       "max_procs": 3,
-      "fairness_jain_index": 0.9343089713759423,
+      "fairness_jain_index": 0.9446971575355273,
       "workload": "cryptojacking",
       "scheduler": "MARKET",
       "spawn_fee_ms": null,
       "critical": {
         "critical_pid": 1,
-        "runs": 2000,
+        "runs": 400,
         "first_tick": 0,
-        "last_tick": 9991,
+        "last_tick": 1991,
         "max_gap_ticks": 9,
-        "mean_gap_ticks": 4.99799899949975
+        "mean_gap_ticks": 4.989974937343359
       },
       "critical_dispatch_ratio": 0.2,
       "critical_wait_max": 0,

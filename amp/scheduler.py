@@ -82,7 +82,7 @@ class MarketScheduler:
                 transitions.append(StateTransition(pid=p.pid, state_before=before, state_after=after))
         return transitions
 
-    def mint(self, processes: Sequence[Process]) -> list[dict]:
+    def mint(self, processes: Sequence[Process], mint_rate_throttled: int = MINT_RATE_THROTTLED_MS) -> list[dict]:
         """
         Apply per-tick budget replenishment based on process state.
         ACTIVE receives full mint rate, THROTTLED receives reduced rate.
@@ -99,8 +99,8 @@ class MarketScheduler:
                 r.budget += MINT_RATE_ACTIVE_MS
                 events.append({"pid": p.pid, "minted_ms": MINT_RATE_ACTIVE_MS, "state": r.state.name})
             elif r.state is ExecutionState.THROTTLED:
-                r.budget += MINT_RATE_THROTTLED_MS
-                events.append({"pid": p.pid, "minted_ms": MINT_RATE_THROTTLED_MS, "state": r.state.name})
+                r.budget += mint_rate_throttled
+                events.append({"pid": p.pid, "minted_ms": mint_rate_throttled, "state": r.state.name})
 
         return events
 

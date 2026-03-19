@@ -19,50 +19,50 @@
     },
     {
       "run_name": "forkbomb_market_fee_1",
-      "event_count": 82071,
+      "event_count": 59069,
       "dispatch_count": 2000,
-      "max_procs": 40,
-      "fairness_jain_index": 0.8205060881551741,
+      "max_procs": 28,
+      "fairness_jain_index": 0.8779768887112712,
       "spawn_fee_ms": 1,
       "critical": {
         "critical_pid": 1,
-        "runs": 400,
+        "runs": 301,
         "first_tick": 0,
         "last_tick": 1991,
-        "max_gap_ticks": 9,
-        "mean_gap_ticks": 4.989974937343359
+        "max_gap_ticks": 10,
+        "mean_gap_ticks": 6.636666666666667
       },
-      "critical_dispatch_ratio": 0.2,
+      "critical_dispatch_ratio": 0.1505,
       "critical_wait_max": 0,
       "critical_wait_mean": 0.0,
       "attacker_bankrupt": true
     },
     {
       "run_name": "forkbomb_market_fee_5",
-      "event_count": 30653,
+      "event_count": 20124,
       "dispatch_count": 2000,
-      "max_procs": 14,
-      "fairness_jain_index": 0.8328287934649876,
+      "max_procs": 9,
+      "fairness_jain_index": 0.9402018625460089,
       "spawn_fee_ms": 5,
       "critical": {
         "critical_pid": 1,
-        "runs": 400,
+        "runs": 397,
         "first_tick": 0,
         "last_tick": 1991,
-        "max_gap_ticks": 9,
-        "mean_gap_ticks": 4.989974937343359
+        "max_gap_ticks": 19,
+        "mean_gap_ticks": 5.027777777777778
       },
-      "critical_dispatch_ratio": 0.2,
+      "critical_dispatch_ratio": 0.1985,
       "critical_wait_max": 0,
       "critical_wait_mean": 0.0,
       "attacker_bankrupt": true
     },
     {
       "run_name": "forkbomb_market_fee_10",
-      "event_count": 20141,
+      "event_count": 10010,
       "dispatch_count": 2000,
-      "max_procs": 9,
-      "fairness_jain_index": 0.9397260273972603,
+      "max_procs": 5,
+      "fairness_jain_index": 0.9976570314824011,
       "spawn_fee_ms": 10,
       "critical": {
         "critical_pid": 1,
