@@ -19,10 +19,10 @@
     },
     {
       "run_name": "forkbomb_market_fee_1",
-      "event_count": 62039,
-      "dispatch_count": 959,
-      "max_procs": 31,
-      "fairness_jain_index": 0.05815870300331829,
+      "event_count": 57937,
+      "dispatch_count": 770,
+      "max_procs": 29,
+      "fairness_jain_index": 0.052722622226871844,
       "spawn_fee_ms": 1,
       "critical": {
         "critical_pid": 1,
@@ -32,17 +32,17 @@
         "max_gap_ticks": 9,
         "mean_gap_ticks": 4.989974937343359
       },
-      "critical_dispatch_ratio": 0.4171011470281543,
+      "critical_dispatch_ratio": 0.5194805194805194,
       "critical_wait_max": 0,
       "critical_wait_mean": 0.0,
       "attacker_bankrupt": true
     },
     {
       "run_name": "forkbomb_market_fee_5",
-      "event_count": 30042,
-      "dispatch_count": 682,
+      "event_count": 29998,
+      "dispatch_count": 612,
       "max_procs": 14,
-      "fairness_jain_index": 0.10026684302009012,
+      "fairness_jain_index": 0.09242829108034795,
       "spawn_fee_ms": 5,
       "critical": {
         "critical_pid": 1,
@@ -52,17 +52,17 @@
         "max_gap_ticks": 9,
         "mean_gap_ticks": 4.989974937343359
       },
-      "critical_dispatch_ratio": 0.5865102639296188,
+      "critical_dispatch_ratio": 0.6535947712418301,
       "critical_wait_max": 0,
       "critical_wait_mean": 0.0,
       "attacker_bankrupt": false
     },
     {
       "run_name": "forkbomb_market_fee_10",
-      "event_count": 20031,
-      "dispatch_count": 604,
+      "event_count": 20005,
+      "dispatch_count": 560,
       "max_procs": 9,
-      "fairness_jain_index": 0.14284116117973167,
+      "fairness_jain_index": 0.13520198818938503,
       "spawn_fee_ms": 10,
       "critical": {
         "critical_pid": 1,
@@ -72,7 +72,7 @@
         "max_gap_ticks": 9,
         "mean_gap_ticks": 4.989974937343359
       },
-      "critical_dispatch_ratio": 0.6622516556291391,
+      "critical_dispatch_ratio": 0.7142857142857143,
       "critical_wait_max": 0,
       "critical_wait_mean": 0.0,
       "attacker_bankrupt": false

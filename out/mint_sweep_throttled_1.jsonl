@@ -37,11 +37,11 @@
 {"tick": 9, "workload": "cryptojacking", "event": "state_transition", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "state_before": "ACTIVE", "state_after": "THROTTLED"}
 {"tick": 9, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 9, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 9, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 9, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 9, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 3, "granted_ms": 4, "waiting_latency": 0}
 {"tick": 10, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 10, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 10, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 10, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 10, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 11, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 11, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
@@ -709,47 +709,43 @@
 {"tick": 176, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
 {"tick": 177, "workload": "cryptojacking", "event": "state_transition", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
 {"tick": 177, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 177, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 177, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 177, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 177, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 3, "granted_ms": 3, "waiting_latency": 167}
-{"tick": 178, "workload": "cryptojacking", "event": "state_transition", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 177, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 3, "granted_ms": 2, "waiting_latency": 167}
 {"tick": 178, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 178, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 178, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 178, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 178, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 1}
-{"tick": 179, "workload": "cryptojacking", "event": "state_transition", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 178, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 1}
 {"tick": 179, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 179, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 179, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 179, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 179, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 180, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 180, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 180, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 180, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 180, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
-{"tick": 181, "workload": "cryptojacking", "event": "state_transition", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
 {"tick": 181, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 181, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 181, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 181, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 181, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 182, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 182, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 182, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 182, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 182, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 2}
+{"tick": 182, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 2}
 {"tick": 183, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 183, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 183, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 183, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 183, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 183, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 184, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 184, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 184, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 184, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 184, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 185, "workload": "cryptojacking", "event": "state_transition", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 184, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 185, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 185, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 185, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 185, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 185, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 186, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 186, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 186, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 186, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 186, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 187, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
@@ -791,19 +787,19 @@
 {"tick": 196, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 196, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 196, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 196, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 196, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 3, "granted_ms": 1, "waiting_latency": 18}
 {"tick": 197, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 197, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 197, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 197, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 197, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 198, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 198, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 198, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 198, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 198, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 199, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 199, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 199, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 199, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 199, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 200, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 200, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 200, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -815,23 +811,23 @@
 {"tick": 202, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 202, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 202, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 202, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 2}
+{"tick": 202, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 203, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 203, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 203, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 203, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 203, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 204, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 204, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 204, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 204, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 204, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 205, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 205, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 205, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 205, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 3, "granted_ms": 1, "waiting_latency": 27}
+{"tick": 205, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 206, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 206, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 206, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 206, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": 3, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 206, "workload": "cryptojacking", "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": null, "procs": 3, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 207, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 207, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 207, "workload": "cryptojacking", "event": "mint", "scheduler": "MARKET", "spawn_fee_ms": null, "pid": 3, "minted_ms": 0, "state": "THROTTLED"}

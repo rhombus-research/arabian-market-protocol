@@ -4,9 +4,9 @@
 {"tick": 0, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 0, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 0, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 0, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 1, "state": "THROTTLED"}
-{"tick": 0, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 1, "state": "THROTTLED"}
-{"tick": 0, "event": "mint", "scheduler": "MARKET", "pid": 6, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 0, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
+{"tick": 0, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
+{"tick": 0, "event": "mint", "scheduler": "MARKET", "pid": 6, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 0, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 6, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 1, "event": "state_transition", "scheduler": "MARKET", "pid": 3, "state_before": "ACTIVE", "state_after": "THROTTLED"}
 {"tick": 1, "event": "state_transition", "scheduler": "MARKET", "pid": 7, "state_before": "ACTIVE", "state_after": "THROTTLED"}
@@ -14,23 +14,23 @@
 {"tick": 1, "event": "state_transition", "scheduler": "MARKET", "pid": 9, "state_before": "ACTIVE", "state_after": "THROTTLED"}
 {"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 1, "state": "THROTTLED"}
-{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 1, "state": "THROTTLED"}
-{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 1, "state": "THROTTLED"}
-{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 6, "minted_ms": 1, "state": "THROTTLED"}
-{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 1, "state": "THROTTLED"}
-{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 1, "state": "THROTTLED"}
-{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
+{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
+{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
+{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 6, "minted_ms": 0, "state": "THROTTLED"}
+{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
+{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
+{"tick": 1, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 1, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 6, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 1, "state": "THROTTLED"}
-{"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 1, "state": "THROTTLED"}
-{"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
+{"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
+{"tick": 2, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 2, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 4, "granted_ms": 5, "waiting_latency": 2}
 {"tick": 3, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 3, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
@@ -1594,7 +1594,7 @@
 {"tick": 158, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
 {"tick": 159, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
 {"tick": 159, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 159, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 159, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 159, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 159, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 159, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1602,10 +1602,9 @@
 {"tick": 159, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 159, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 159, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 159, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 4, "granted_ms": 3, "waiting_latency": 156}
-{"tick": 160, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 159, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 4, "granted_ms": 2, "waiting_latency": 156}
 {"tick": 160, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 160, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 160, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 160, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 160, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 160, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1615,7 +1614,7 @@
 {"tick": 160, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 160, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 161, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 161, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 161, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 161, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 161, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 161, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1625,7 +1624,7 @@
 {"tick": 161, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 161, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 162, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 162, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 162, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 162, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 162, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 162, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1633,9 +1632,9 @@
 {"tick": 162, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 162, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 162, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 162, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 3}
+{"tick": 162, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 5, "granted_ms": 2, "waiting_latency": 158}
 {"tick": 163, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 163, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 163, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 163, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 163, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 163, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1643,9 +1642,9 @@
 {"tick": 163, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 163, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 163, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 163, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 163, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 6, "granted_ms": 2, "waiting_latency": 158}
 {"tick": 164, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 164, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 164, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 164, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 164, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 164, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1653,9 +1652,9 @@
 {"tick": 164, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 164, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 164, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 164, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 164, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 7, "granted_ms": 2, "waiting_latency": 158}
 {"tick": 165, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 165, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 165, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 165, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 165, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 165, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1663,9 +1662,9 @@
 {"tick": 165, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 165, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 165, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 165, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 165, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 8, "granted_ms": 2, "waiting_latency": 158}
 {"tick": 166, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 166, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 166, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 166, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 166, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 166, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1673,10 +1672,9 @@
 {"tick": 166, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 166, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 166, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 166, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 167, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 166, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 9, "granted_ms": 2, "waiting_latency": 158}
 {"tick": 167, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 167, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 167, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 167, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 167, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 167, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1684,10 +1682,9 @@
 {"tick": 167, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 167, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 167, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 167, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 5, "granted_ms": 3, "waiting_latency": 163}
-{"tick": 168, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 167, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 8}
 {"tick": 168, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 168, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 168, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 168, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 168, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 168, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1695,10 +1692,9 @@
 {"tick": 168, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 168, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 168, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 168, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 1}
-{"tick": 169, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 168, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 169, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 169, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 169, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 169, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 169, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 169, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1706,10 +1702,9 @@
 {"tick": 169, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 169, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 169, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 169, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 6, "granted_ms": 3, "waiting_latency": 164}
-{"tick": 170, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 169, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 170, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 170, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 170, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 170, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 170, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 170, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1719,7 +1714,7 @@
 {"tick": 170, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 170, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 171, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 171, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 171, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 171, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 171, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 171, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1729,7 +1724,7 @@
 {"tick": 171, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 171, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 172, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 172, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 172, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 172, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 172, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 172, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1737,9 +1732,9 @@
 {"tick": 172, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 172, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 172, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 172, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 3}
+{"tick": 172, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 2}
 {"tick": 173, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 173, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 173, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 173, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 173, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 173, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1747,9 +1742,9 @@
 {"tick": 173, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 173, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 173, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 173, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 173, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 174, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 174, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 174, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 174, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 174, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 174, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1757,9 +1752,9 @@
 {"tick": 174, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 174, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 174, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 174, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 174, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 175, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 175, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 175, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 175, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 175, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 175, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1767,9 +1762,9 @@
 {"tick": 175, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 175, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 175, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 175, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 175, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 176, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 176, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 176, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 176, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 176, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 176, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1777,10 +1772,9 @@
 {"tick": 176, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 176, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 176, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 176, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 177, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 176, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 177, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 177, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 177, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 177, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 177, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 177, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1788,10 +1782,9 @@
 {"tick": 177, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 177, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 177, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 177, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 7, "granted_ms": 3, "waiting_latency": 171}
-{"tick": 178, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 177, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 178, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 178, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 178, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 178, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 178, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 178, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1799,10 +1792,9 @@
 {"tick": 178, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 178, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 178, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 178, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 1}
-{"tick": 179, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 178, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 179, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 179, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 179, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 179, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 179, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 179, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1810,10 +1802,9 @@
 {"tick": 179, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 179, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 179, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 179, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 8, "granted_ms": 3, "waiting_latency": 172}
-{"tick": 180, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 179, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 180, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 180, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 180, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 180, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 180, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 180, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1823,7 +1814,7 @@
 {"tick": 180, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 180, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 181, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 181, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 181, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 181, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 181, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 181, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1833,7 +1824,7 @@
 {"tick": 181, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 181, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 182, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 182, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 182, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 182, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 182, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 182, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1841,9 +1832,9 @@
 {"tick": 182, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 182, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 182, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 182, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 3}
+{"tick": 182, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 2}
 {"tick": 183, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 183, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 183, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 183, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 183, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 183, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1851,9 +1842,9 @@
 {"tick": 183, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 183, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 183, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 183, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 183, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 184, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 184, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 184, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 184, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 184, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 184, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1861,9 +1852,9 @@
 {"tick": 184, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 184, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 184, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 184, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 184, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 185, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 185, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 185, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 185, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 185, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 185, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1871,9 +1862,9 @@
 {"tick": 185, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 185, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 185, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 185, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 185, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 3, "granted_ms": 1, "waiting_latency": 185}
 {"tick": 186, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 186, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 186, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 186, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 186, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 186, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1881,10 +1872,9 @@
 {"tick": 186, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 186, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 186, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 186, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 187, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 186, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 4, "granted_ms": 1, "waiting_latency": 26}
 {"tick": 187, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 187, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 187, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 187, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 187, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 187, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1892,10 +1882,9 @@
 {"tick": 187, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 187, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 187, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 187, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 9, "granted_ms": 3, "waiting_latency": 179}
-{"tick": 188, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 187, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 4, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 188, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 188, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 188, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 188, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 188, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 188, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1903,10 +1892,9 @@
 {"tick": 188, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 188, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 188, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 188, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 1}
-{"tick": 189, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 188, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 5, "granted_ms": 1, "waiting_latency": 25}
 {"tick": 189, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 189, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 189, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 189, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 189, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 189, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1914,10 +1902,9 @@
 {"tick": 189, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 189, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 189, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 189, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 3, "granted_ms": 2, "waiting_latency": 189}
-{"tick": 190, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 189, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 5, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 190, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 190, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 190, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 190, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 190, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 190, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1927,7 +1914,7 @@
 {"tick": 190, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 190, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 191, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 191, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 191, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 191, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 191, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 191, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1937,7 +1924,7 @@
 {"tick": 191, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 191, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 192, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 192, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 192, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 192, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 192, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 192, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1945,9 +1932,9 @@
 {"tick": 192, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 192, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 192, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 192, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 3}
+{"tick": 192, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 6, "granted_ms": 1, "waiting_latency": 28}
 {"tick": 193, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 193, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 193, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 193, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 193, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 193, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1955,9 +1942,9 @@
 {"tick": 193, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 193, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 193, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 193, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 193, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 6, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 194, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 194, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 194, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 194, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 194, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 194, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1965,9 +1952,9 @@
 {"tick": 194, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 194, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 194, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 194, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 194, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 7, "granted_ms": 1, "waiting_latency": 29}
 {"tick": 195, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 195, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 195, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 195, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 195, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 195, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1975,9 +1962,9 @@
 {"tick": 195, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 195, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 195, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 195, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 195, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 7, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 196, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 196, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 196, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 196, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 196, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 196, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1985,10 +1972,9 @@
 {"tick": 196, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 196, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 196, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 196, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 197, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 196, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 8, "granted_ms": 1, "waiting_latency": 30}
 {"tick": 197, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 197, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 197, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 197, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 197, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 197, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -1996,10 +1982,9 @@
 {"tick": 197, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 197, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 197, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 197, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 4, "granted_ms": 2, "waiting_latency": 37}
-{"tick": 198, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 197, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 8, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 198, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 198, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 198, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 198, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 198, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 198, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2007,10 +1992,9 @@
 {"tick": 198, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 198, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 198, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 198, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 1}
-{"tick": 199, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 198, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 9, "granted_ms": 1, "waiting_latency": 31}
 {"tick": 199, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 199, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 199, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 199, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 199, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 199, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2018,10 +2002,9 @@
 {"tick": 199, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 199, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 199, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 199, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 5, "granted_ms": 2, "waiting_latency": 31}
-{"tick": 200, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 199, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 9, "granted_ms": 1, "waiting_latency": 0}
 {"tick": 200, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 200, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 200, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 200, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 200, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 200, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2031,7 +2014,7 @@
 {"tick": 200, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 200, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 201, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 201, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 201, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 201, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 201, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 201, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2041,7 +2024,7 @@
 {"tick": 201, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 201, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 202, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 202, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 202, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 202, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 202, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 202, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2049,9 +2032,9 @@
 {"tick": 202, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 202, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 202, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 202, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 3}
+{"tick": 202, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 203, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 203, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 203, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 203, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 203, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 203, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2059,9 +2042,9 @@
 {"tick": 203, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 203, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 203, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 203, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 203, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 204, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 204, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 204, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 204, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 204, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 204, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2069,9 +2052,9 @@
 {"tick": 204, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 204, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 204, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 204, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 204, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 205, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 205, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 205, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 205, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 205, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 205, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2079,9 +2062,9 @@
 {"tick": 205, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 205, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 205, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 205, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 205, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 206, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 206, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 206, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 206, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 206, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 206, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2089,10 +2072,9 @@
 {"tick": 206, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 206, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 206, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 206, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 207, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 206, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 207, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 207, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 207, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 207, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 207, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 207, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2100,10 +2082,9 @@
 {"tick": 207, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 207, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 207, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 207, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 6, "granted_ms": 2, "waiting_latency": 37}
-{"tick": 208, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 207, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 208, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 208, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 208, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 208, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 208, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 208, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2111,10 +2092,9 @@
 {"tick": 208, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 208, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 208, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 208, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 1}
-{"tick": 209, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 208, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 209, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 209, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 209, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 209, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 209, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 209, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2122,10 +2102,9 @@
 {"tick": 209, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 209, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 209, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 209, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 7, "granted_ms": 2, "waiting_latency": 31}
-{"tick": 210, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 209, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 210, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 210, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 210, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 210, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 210, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 210, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2135,7 +2114,7 @@
 {"tick": 210, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 210, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 211, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 211, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 211, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 211, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 211, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 211, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2145,7 +2124,7 @@
 {"tick": 211, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 211, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 212, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 212, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 212, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 212, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 212, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 212, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2153,9 +2132,9 @@
 {"tick": 212, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 212, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 212, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 212, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 3}
+{"tick": 212, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 213, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 213, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 213, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 213, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 213, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 213, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2163,9 +2142,9 @@
 {"tick": 213, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 213, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 213, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 213, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 213, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 214, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 214, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 214, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 214, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 214, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 214, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2173,9 +2152,9 @@
 {"tick": 214, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 214, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 214, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 214, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 214, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 215, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 215, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 215, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 215, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 215, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 215, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2183,9 +2162,9 @@
 {"tick": 215, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 215, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 215, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 215, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 215, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 216, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 216, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 216, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 216, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 216, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 216, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2193,10 +2172,9 @@
 {"tick": 216, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 216, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 216, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 216, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 217, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 216, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 217, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 217, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 217, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 217, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 217, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 217, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2204,10 +2182,9 @@
 {"tick": 217, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 217, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 217, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 217, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 8, "granted_ms": 2, "waiting_latency": 37}
-{"tick": 218, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 217, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 218, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 218, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 218, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 218, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 218, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 218, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2215,10 +2192,9 @@
 {"tick": 218, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 218, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 218, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 218, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 1}
-{"tick": 219, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 218, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 219, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 219, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 219, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 219, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 219, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 219, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2226,10 +2202,9 @@
 {"tick": 219, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 219, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 219, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 219, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 9, "granted_ms": 2, "waiting_latency": 31}
-{"tick": 220, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "THROTTLED", "state_after": "ACTIVE"}
+{"tick": 219, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 220, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 220, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 220, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 220, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 220, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 220, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2239,7 +2214,7 @@
 {"tick": 220, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 220, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 221, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 221, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 221, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 221, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 221, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 221, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2249,7 +2224,7 @@
 {"tick": 221, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 221, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 1, "granted_ms": 10, "waiting_latency": 0}
 {"tick": 222, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 222, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 222, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 222, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 222, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 222, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2257,9 +2232,9 @@
 {"tick": 222, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 222, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 222, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 222, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 3}
+{"tick": 222, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 223, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 223, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 223, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 223, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 223, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 223, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2267,9 +2242,9 @@
 {"tick": 223, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 223, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 223, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 223, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 223, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 224, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 224, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 224, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 224, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 224, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 224, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2277,9 +2252,9 @@
 {"tick": 224, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 224, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 224, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 224, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 224, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 225, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 225, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 225, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 225, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 225, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 225, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2287,9 +2262,9 @@
 {"tick": 225, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 225, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 225, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 225, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
+{"tick": 225, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 226, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 226, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 2, "state": "ACTIVE"}
+{"tick": 226, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 226, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 226, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 226, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2297,10 +2272,9 @@
 {"tick": 226, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 226, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 226, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 226, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 3, "waiting_latency": 0}
-{"tick": 227, "event": "state_transition", "scheduler": "MARKET", "pid": 2, "state_before": "ACTIVE", "state_after": "THROTTLED"}
+{"tick": 226, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 227, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 227, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 227, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 227, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 227, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 227, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2308,9 +2282,9 @@
 {"tick": 227, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 227, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 227, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 227, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 227, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 228, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
-{"tick": 228, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 1, "state": "THROTTLED"}
+{"tick": 228, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 228, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 228, "event": "mint", "scheduler": "MARKET", "pid": 4, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 228, "event": "mint", "scheduler": "MARKET", "pid": 5, "minted_ms": 0, "state": "THROTTLED"}
@@ -2318,7 +2292,7 @@
 {"tick": 228, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 228, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 228, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 228, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 228, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 229, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 229, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 229, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2328,7 +2302,7 @@
 {"tick": 229, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 229, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 229, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 229, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 229, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 230, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 230, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 230, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2358,7 +2332,7 @@
 {"tick": 232, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 232, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 232, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 232, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 2}
+{"tick": 232, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 233, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 233, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 233, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2368,7 +2342,7 @@
 {"tick": 233, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 233, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 233, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 233, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 233, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 234, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 234, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 234, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2378,7 +2352,7 @@
 {"tick": 234, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 234, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 234, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 234, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 234, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 235, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 235, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 235, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2388,7 +2362,7 @@
 {"tick": 235, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 235, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 235, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 235, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 235, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 236, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 236, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 236, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2398,7 +2372,7 @@
 {"tick": 236, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 236, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 236, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 236, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 236, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 237, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 237, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 237, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2408,7 +2382,7 @@
 {"tick": 237, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 237, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 237, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 237, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 237, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 238, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 238, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 238, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2418,7 +2392,7 @@
 {"tick": 238, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 238, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 238, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 238, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 238, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 239, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 239, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 239, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2428,7 +2402,7 @@
 {"tick": 239, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 239, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 239, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 239, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 239, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 240, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 240, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 240, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2458,7 +2432,7 @@
 {"tick": 242, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 242, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 242, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 242, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 2}
+{"tick": 242, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 243, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 243, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 243, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2468,7 +2442,7 @@
 {"tick": 243, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 243, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 243, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 243, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 243, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 244, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 244, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 244, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2478,7 +2452,7 @@
 {"tick": 244, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 244, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 244, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 244, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 244, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 245, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 245, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 245, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2488,7 +2462,7 @@
 {"tick": 245, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 245, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 245, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 245, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 245, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 246, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 246, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 246, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2498,7 +2472,7 @@
 {"tick": 246, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 246, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 246, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 246, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 2, "granted_ms": 1, "waiting_latency": 0}
+{"tick": 246, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 247, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 247, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 247, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2508,7 +2482,7 @@
 {"tick": 247, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 247, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 247, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 247, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 3, "granted_ms": 1, "waiting_latency": 57}
+{"tick": 247, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 248, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 248, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 248, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2518,7 +2492,7 @@
 {"tick": 248, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 248, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 248, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 248, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 4, "granted_ms": 1, "waiting_latency": 50}
+{"tick": 248, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 249, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 249, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 249, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2528,7 +2502,7 @@
 {"tick": 249, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 249, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 249, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 249, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 5, "granted_ms": 1, "waiting_latency": 49}
+{"tick": 249, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 250, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 250, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 250, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2558,7 +2532,7 @@
 {"tick": 252, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 252, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 252, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 252, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 6, "granted_ms": 1, "waiting_latency": 44}
+{"tick": 252, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 253, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 253, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 253, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2568,7 +2542,7 @@
 {"tick": 253, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 253, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 253, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 253, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 7, "granted_ms": 1, "waiting_latency": 43}
+{"tick": 253, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 254, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 254, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 254, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2578,7 +2552,7 @@
 {"tick": 254, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 254, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 254, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 254, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 8, "granted_ms": 1, "waiting_latency": 36}
+{"tick": 254, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 255, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 255, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 255, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
@@ -2588,7 +2562,7 @@
 {"tick": 255, "event": "mint", "scheduler": "MARKET", "pid": 7, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 255, "event": "mint", "scheduler": "MARKET", "pid": 8, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 255, "event": "mint", "scheduler": "MARKET", "pid": 9, "minted_ms": 0, "state": "THROTTLED"}
-{"tick": 255, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": 9, "granted_ms": 1, "waiting_latency": 35}
+{"tick": 255, "event": "dispatch", "scheduler": "MARKET", "spawn_fee_ms": 10, "procs": 9, "dispatch_pid": null, "granted_ms": 0, "waiting_latency": null}
 {"tick": 256, "event": "mint", "scheduler": "MARKET", "pid": 1, "minted_ms": 2, "state": "ACTIVE"}
 {"tick": 256, "event": "mint", "scheduler": "MARKET", "pid": 2, "minted_ms": 0, "state": "THROTTLED"}
 {"tick": 256, "event": "mint", "scheduler": "MARKET", "pid": 3, "minted_ms": 0, "state": "THROTTLED"}
