@@ -9,7 +9,7 @@ from amp.sijil import ExecutionState, SijilRecord
 from amp.metrics import MetricsRecorder, critical_responsiveness, write_summary
 from amp.process import Process
 from amp.scheduler import MarketScheduler, RoundRobinScheduler
-from amp.workloads import BurstDemand, ConstantDemand, ForkBombSpawner
+from amp.workloads import BurstDemand, ConstantDemand, CryptojackingDemand, ForkBombSpawner
 
 
 def _write_jsonl(path: str, events: list[dict[str, Any]]) -> None:
@@ -238,6 +238,241 @@ def run_market_with_fee(spawner: ForkBombSpawner, ticks: int, jsonl_path: str, t
     return market_sum
 
 
+def _cryptojacking_base_processes() -> list[Process]:
+    # Identical to _base_processes() except pid 3 uses CryptojackingDemand
+    # instead of ConstantDemand. The named type documents the attack class.
+    return [
+        Process(pid=1, name="critical-burst", demand=BurstDemand(burst_ms=10, period=10, duty=2)),
+        Process(pid=2, name="benign", demand=ConstantDemand(ms=3)),
+        Process(pid=3, name="attacker-cryptojack", demand=CryptojackingDemand(ms=10)),
+    ]
+
+
+def run_rr_cryptojacking(ticks: int, jsonl_path: str, txt_path: str) -> dict[str, Any]:
+    """Run the cryptojacking workload against Round Robin scheduler.
+
+    No spawner — single attacker process (pid 3) with constant max demand.
+    Logs spawn_fee_ms as null: field is inapplicable for this attack class
+    but kept null (not omitted) to maintain schema consistency with fork bomb
+    logs. workload field identifies the experiment type.
+    """
+    rr_procs = _cryptojacking_base_processes()
+    rr = RoundRobinScheduler()
+
+    rr_runnable_since: dict[int, int] = {}
+    rr_waiting_latency: dict[int, list[int]] = {}
+
+    rr_rec = MetricsRecorder(run_name="cryptojack_rr")
+
+    with open(txt_path, "w", encoding="utf-8") as rr_out:
+        rr_out.write("=== Round Robin (Cryptojacking) ===\n")
+
+        for tick in range(ticks):
+            for p in rr_procs:
+                demand = p.demand.demand_ms(tick)
+                if demand > 0:
+                    if p.pid not in rr_runnable_since:
+                        rr_runnable_since[p.pid] = tick
+                else:
+                    if p.pid in rr_runnable_since:
+                        del rr_runnable_since[p.pid]
+
+            d = rr.select(rr_procs, tick=tick, slice_ms=DEFAULT_SLICE_MS)
+
+            rr_latency = None
+            if d.pid is not None and d.pid in rr_runnable_since:
+                start_tick = rr_runnable_since[d.pid]
+                rr_latency = tick - start_tick
+                rr_waiting_latency.setdefault(d.pid, []).append(rr_latency)
+
+            rr_out.write(f"tick={tick:02d} procs={len(rr_procs):02d} dispatch pid={d.pid} grant_ms={d.granted_ms}\n")
+            rr_rec.add(
+                {
+                    "tick": tick,
+                    "workload": "cryptojacking",
+                    "scheduler": "RR",
+                    "spawn_fee_ms": None,
+                    "procs": len(rr_procs),
+                    "dispatch_pid": d.pid,
+                    "granted_ms": d.granted_ms,
+                    "waiting_latency": rr_latency,
+                }
+            )
+
+    _write_jsonl(jsonl_path, rr_rec._events)
+
+    rr_sum = rr_rec.summary()
+    rr_sum["workload"] = "cryptojacking"
+    rr_sum["scheduler"] = "RR"
+    rr_sum["spawn_fee_ms"] = None
+    rr_sum["critical"] = critical_responsiveness(rr_rec._events, critical_pid=1)
+
+    wmax, wmean = _aggregate_waiting_latency(rr_waiting_latency, pid=1)
+    rr_sum["critical_wait_max"] = wmax
+    rr_sum["critical_wait_mean"] = wmean
+    return rr_sum
+
+
+def run_market_cryptojacking(ticks: int, jsonl_path: str, txt_path: str) -> dict[str, Any]:
+    """Run the cryptojacking workload against the MarketScheduler.
+
+    No spawner — single attacker process (pid 3) with constant max demand.
+    Attacker runs until bankrupt; bankruptcy tick is recorded.
+    spawn_fee_ms logged as null: inapplicable for this attack class.
+    """
+    market_procs = _cryptojacking_base_processes()
+
+    records: dict[int, SijilRecord] = {
+        p.pid: SijilRecord(
+            pid=p.pid,
+            budget=DEFAULT_BUDGET_MS,
+            spent=0,
+            state=ExecutionState.ACTIVE,
+            last_bid=0,
+        )
+        for p in market_procs
+    }
+
+    market = MarketScheduler(records)
+
+    runnable_since: dict[int, int] = {}
+    waiting_latency: dict[int, list[int]] = {}
+
+    market_rec = MetricsRecorder(run_name="cryptojack_market")
+    attacker_pid = 3
+
+    with open(txt_path, "w", encoding="utf-8") as out:
+        out.write("=== Market (Cryptojacking) ===\n")
+
+        for tick in range(ticks):
+            # Step 1: reconcile states (no spawn step — single process attacker)
+            transitions = market.reconcile_states(market_procs)
+            for t in transitions:
+                market_rec.add(
+                    {
+                        "tick": tick,
+                        "workload": "cryptojacking",
+                        "event": "state_transition",
+                        "scheduler": "MARKET",
+                        "spawn_fee_ms": None,
+                        "pid": t.pid,
+                        "state_before": t.state_before.name,
+                        "state_after": t.state_after.name,
+                    }
+                )
+
+            # Step 2: mint
+            mint_events = market.mint(market_procs)
+            for m in mint_events:
+                market_rec.add(
+                    {
+                        "tick": tick,
+                        "workload": "cryptojacking",
+                        "event": "mint",
+                        "scheduler": "MARKET",
+                        "spawn_fee_ms": None,
+                        "pid": m["pid"],
+                        "minted_ms": m["minted_ms"],
+                        "state": m["state"],
+                    }
+                )
+
+            # Step 3: track runnable arrival for latency
+            for p in market_procs:
+                demand = p.demand.demand_ms(tick)
+                if demand > 0:
+                    if p.pid not in runnable_since:
+                        runnable_since[p.pid] = tick
+                else:
+                    if p.pid in runnable_since:
+                        del runnable_since[p.pid]
+
+            # Step 4: select and dispatch
+            d = market.select(market_procs, tick=tick, slice_ms=DEFAULT_SLICE_MS)
+
+            latency = None
+            if d.pid is not None and d.pid in runnable_since:
+                start_tick = runnable_since[d.pid]
+                latency = tick - start_tick
+                waiting_latency.setdefault(d.pid, []).append(latency)
+                runnable_since[d.pid] = tick + 1
+
+            out.write(
+                f"tick={tick:02d} procs={len(market_procs):02d} dispatch pid={d.pid} grant_ms={d.granted_ms}\n"
+            )
+            market_rec.add(
+                {
+                    "tick": tick,
+                    "workload": "cryptojacking",
+                    "event": "dispatch",
+                    "scheduler": "MARKET",
+                    "spawn_fee_ms": None,
+                    "procs": len(market_procs),
+                    "dispatch_pid": d.pid,
+                    "granted_ms": d.granted_ms,
+                    "waiting_latency": latency,
+                }
+            )
+
+    _write_jsonl(jsonl_path, market_rec._events)
+
+    dispatch_events = [e for e in market_rec._events if e.get("event") == "dispatch"]
+
+    market_sum = market_rec.summary()
+    market_sum["workload"] = "cryptojacking"
+    market_sum["scheduler"] = "MARKET"
+    market_sum["spawn_fee_ms"] = None
+    market_sum["critical"] = critical_responsiveness(dispatch_events, critical_pid=1)
+
+    critical_runs = market_sum["critical"]["runs"]
+    total_dispatches = sum(1 for e in dispatch_events if e["dispatch_pid"] is not None)
+    market_sum["critical_dispatch_ratio"] = (
+        critical_runs / total_dispatches if total_dispatches > 0 else 0
+    )
+
+    wmax, wmean = _aggregate_waiting_latency(waiting_latency, pid=1)
+    market_sum["critical_wait_max"] = wmax
+    market_sum["critical_wait_mean"] = wmean
+
+    # Bankruptcy tracking: did attacker go bankrupt, and at which tick?
+    attacker_record = records.get(attacker_pid)
+    market_sum["attacker_bankrupt"] = (
+        attacker_record is not None and attacker_record.state == ExecutionState.BANKRUPT
+    )
+    market_sum["attacker_bankruptcy_tick"] = None
+    for e in market_rec._events:
+        if (
+            e.get("event") == "state_transition"
+            and e.get("pid") == attacker_pid
+            and e.get("state_after") == "BANKRUPT"
+        ):
+            market_sum["attacker_bankruptcy_tick"] = e["tick"]
+            break
+
+    return market_sum
+
+
+def run_cryptojacking_rr_and_market() -> None:
+    os.makedirs("out", exist_ok=True)
+
+    ticks = 2000
+
+    rr_sum = run_rr_cryptojacking(
+        ticks=ticks,
+        jsonl_path=os.path.join("out", "cryptojack_rr.jsonl"),
+        txt_path=os.path.join("out", "cryptojack_rr.txt"),
+    )
+
+    market_sum = run_market_cryptojacking(
+        ticks=ticks,
+        jsonl_path=os.path.join("out", "cryptojack_market.jsonl"),
+        txt_path=os.path.join("out", "cryptojack_market.txt"),
+    )
+
+    summary_path = write_summary("out", "cryptojacking_summary.json", [rr_sum, market_sum])
+    print(f"Wrote summary: {summary_path}")
+
+
 def run_forkbomb_rr_and_market() -> None:
     os.makedirs("out", exist_ok=True)
 
@@ -286,3 +521,4 @@ def run_forkbomb_rr_and_market() -> None:
 
 if __name__ == "__main__":
     run_forkbomb_rr_and_market()
+    run_cryptojacking_rr_and_market()
