@@ -15,3 +15,4 @@ class SijilRecord:
     spent: int
     state: ExecutionState
     last_bid: int
+    throttled_ticks: int = 0

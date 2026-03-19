@@ -22,10 +22,10 @@
     },
     {
       "run_name": "cryptojack_market",
-      "event_count": 8008,
-      "dispatch_count": 2000,
+      "event_count": 8006,
+      "dispatch_count": 565,
       "max_procs": 3,
-      "fairness_jain_index": 0.9446971575355273,
+      "fairness_jain_index": 0.41823698700437684,
       "workload": "cryptojacking",
       "scheduler": "MARKET",
       "spawn_fee_ms": null,
@@ -37,7 +37,7 @@
         "max_gap_ticks": 9,
         "mean_gap_ticks": 4.989974937343359
       },
-      "critical_dispatch_ratio": 0.2,
+      "critical_dispatch_ratio": 0.7079646017699115,
       "critical_wait_max": 0,
       "critical_wait_mean": 0.0,
       "attacker_bankrupt": false,

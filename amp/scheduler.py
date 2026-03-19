@@ -80,6 +80,12 @@ class MarketScheduler:
             if after != before:
                 r.state = after
                 transitions.append(StateTransition(pid=p.pid, state_before=before, state_after=after))
+
+            if r.state is ExecutionState.THROTTLED:
+                r.throttled_ticks += 1
+            else:
+                r.throttled_ticks = 0
+
         return transitions
 
     def mint(self, processes: Sequence[Process], mint_rate_throttled: int = MINT_RATE_THROTTLED_MS) -> list[dict]:
@@ -99,8 +105,11 @@ class MarketScheduler:
                 r.budget += MINT_RATE_ACTIVE_MS
                 events.append({"pid": p.pid, "minted_ms": MINT_RATE_ACTIVE_MS, "state": r.state.name})
             elif r.state is ExecutionState.THROTTLED:
-                r.budget += mint_rate_throttled
-                events.append({"pid": p.pid, "minted_ms": mint_rate_throttled, "state": r.state.name})
+                decay_factor = 2 ** (r.throttled_ticks // 3) # half-life parameter
+                decayed_rate = max(0, mint_rate_throttled // decay_factor)
+                r.budget += decayed_rate
+                events.append({"pid": p.pid, "minted_ms": decayed_rate, "state": r.state.name,
+                               "throttled_ticks": r.throttled_ticks})
 
         return events
 

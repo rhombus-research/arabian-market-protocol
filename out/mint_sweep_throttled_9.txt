@@ -4,10 +4,10 @@ tick=01 procs=03 dispatch pid=1 grant_ms=10
 tick=02 procs=03 dispatch pid=3 grant_ms=10
 tick=03 procs=03 dispatch pid=3 grant_ms=10
 tick=04 procs=03 dispatch pid=3 grant_ms=10
-tick=05 procs=03 dispatch pid=3 grant_ms=5
-tick=06 procs=03 dispatch pid=3 grant_ms=5
+tick=05 procs=03 dispatch pid=3 grant_ms=10
+tick=06 procs=03 dispatch pid=3 grant_ms=10
 tick=07 procs=03 dispatch pid=3 grant_ms=10
-tick=08 procs=03 dispatch pid=3 grant_ms=5
+tick=08 procs=03 dispatch pid=3 grant_ms=10
 tick=09 procs=03 dispatch pid=3 grant_ms=5
 tick=10 procs=03 dispatch pid=1 grant_ms=10
 tick=11 procs=03 dispatch pid=1 grant_ms=10
