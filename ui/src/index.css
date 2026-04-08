@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  /* Arabian Market palette */
+  --color-amp-midnight: #0a0a14;
+  --color-amp-panel: #12121f;
+  --color-amp-card: #1a1a2e;
+  --color-amp-card-hover: #22223a;
+  --color-amp-gold: #d4a940;
+  --color-amp-gold-bright: #f0d060;
+  --color-amp-gold-muted: #8a7030;
+  --color-amp-gold-dim: #5a4820;
+  --color-amp-text: #e8e0d0;
+  --color-amp-text-muted: #a09880;
+  --color-amp-active: #40c080;
+  --color-amp-throttled: #d4a940;
+  --color-amp-bankrupt: #c04040;
+  --color-amp-rr-blue: #6880a0;
+
+  --font-display: 'Instrument Serif', Georgia, serif;
+
+  --animate-pulse-glow: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 4px rgba(192, 64, 64, 0.4); }
+  50% { box-shadow: 0 0 12px rgba(192, 64, 64, 0.8); }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-amp-midnight);
+  color: var(--color-amp-text);
+  font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-amp-panel);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-amp-gold-dim);
+  border-radius: 3px;
+}

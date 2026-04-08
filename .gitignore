@@ -2,3 +2,8 @@ __pycache__/
 .venv/
 .idea/
 *.pyc
+
+# UI
+ui/node_modules/
+ui/dist/
+.vite/

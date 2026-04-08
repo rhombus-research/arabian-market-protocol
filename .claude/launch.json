@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "api",
+      "runtimeExecutable": "py",
+      "runtimeArgs": ["-m", "uvicorn", "api.app:app", "--reload", "--host", "127.0.0.1", "--port", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "ui",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["ui/node_modules/vite/bin/vite.js", "--config", "ui/vite.config.ts"],
+      "port": 5200
+    }
+  ]
+}
