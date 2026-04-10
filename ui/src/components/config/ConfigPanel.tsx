@@ -62,7 +62,7 @@ export function ConfigPanel() {
           label="Speed"
           unit="ms/tick"
           value={config.tick_delay_ms}
-          min={10} max={500} step={10}
+          min={50} max={500} step={10}
           onChange={(v) => {
             setParam('tick_delay_ms', v);
             if (running) send('speed', { tick_delay_ms: v });
@@ -71,7 +71,7 @@ export function ConfigPanel() {
         <ParamSlider
           label="Max Ticks"
           value={config.ticks}
-          min={0} max={5000} step={100}
+          min={0} max={2000} step={50}
           disabled={running}
           onChange={(v) => setParam('ticks', v)}
         />
@@ -84,7 +84,7 @@ export function ConfigPanel() {
         <ParamSlider
           label="Critical Tasks"
           value={config.critical_task_count}
-          min={1} max={10}
+          min={1} max={3}
           disabled={running}
           onChange={(v) => setParam('critical_task_count', v)}
         />
@@ -92,7 +92,7 @@ export function ConfigPanel() {
           label="Budget"
           unit="ms"
           value={config.default_budget_ms}
-          min={10} max={200} step={10}
+          min={20} max={120} step={10}
           disabled={running}
           onChange={(v) => setParam('default_budget_ms', v)}
         />
@@ -106,7 +106,7 @@ export function ConfigPanel() {
           <ParamSlider
             label="Max Processes"
             value={config.fork_bomb_count}
-            min={5} max={120} step={5}
+            min={10} max={60} step={5}
             disabled={running || !isForkBomb}
             onChange={(v) => setParam('fork_bomb_count', v)}
           />
@@ -114,7 +114,7 @@ export function ConfigPanel() {
             label="Spawn Fee"
             unit="ms"
             value={config.spawn_fee_ms}
-            min={1} max={30}
+            min={1} max={15}
             disabled={!isForkBomb}
             onChange={(v) => {
               setParam('spawn_fee_ms', v);
@@ -130,7 +130,7 @@ export function ConfigPanel() {
           <ParamSlider
             label="Miners"
             value={config.crypto_miner_count}
-            min={1} max={10}
+            min={1} max={5}
             disabled={running || isForkBomb}
             onChange={(v) => setParam('crypto_miner_count', v)}
           />
@@ -145,7 +145,7 @@ export function ConfigPanel() {
           label="Mint Rate (Throttled)"
           unit="ms/tick"
           value={config.mint_rate_throttled_ms}
-          min={0} max={10}
+          min={0} max={5}
           onChange={(v) => {
             setParam('mint_rate_throttled_ms', v);
             if (running) send('tune', { mint_rate_throttled_ms: v });

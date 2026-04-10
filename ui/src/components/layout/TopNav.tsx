@@ -26,7 +26,7 @@ export function TopNav() {
           )}
           <div
             className="w-80 text-right text-amp-text-muted/40 pr-4"
-            style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 200, fontSize: 'clamp(16pt, 2vw, 24pt)', letterSpacing: '-0.03em' }}
+            style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 200, fontSize: 'clamp(16pt, 2vw, 24pt)', letterSpacing: '-0.06em' }}
           >
             <span>rhombus </span>
             <span className="text-amp-rr-blue/40">research</span>

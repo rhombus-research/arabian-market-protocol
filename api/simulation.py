@@ -323,11 +323,11 @@ class SimulationEngine:
     def tune(self, params: dict) -> None:
         """Live-tune safe economic parameters during a running simulation."""
         if 'mint_rate_throttled_ms' in params:
-            val = max(0, min(20, int(params['mint_rate_throttled_ms'])))
+            val = max(0, min(5, int(params['mint_rate_throttled_ms'])))
             self.config.mint_rate_throttled_ms = val
 
         if 'spawn_fee_ms' in params:
-            val = max(1, min(30, int(params['spawn_fee_ms'])))
+            val = max(1, min(15, int(params['spawn_fee_ms'])))
             self.config.spawn_fee_ms = val
             # Update the spawner if it exists
             if self._spawner:

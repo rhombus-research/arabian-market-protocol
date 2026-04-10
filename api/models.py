@@ -20,23 +20,23 @@ class Scenario(str, Enum):
 
 class SimulationConfig(BaseModel):
     scenario: Scenario = Scenario.FORKBOMB
-    ticks: int = Field(default=0, ge=0, description="0 = run until stopped")
-    tick_delay_ms: int = Field(default=100, ge=10, le=2000)
+    ticks: int = Field(default=0, ge=0, le=2000, description="0 = run until stopped")
+    tick_delay_ms: int = Field(default=100, ge=50, le=500)
 
     # Fork bomb params
-    fork_bomb_count: int = Field(default=60, ge=1, le=120)
-    spawn_fee_ms: int = Field(default=SPAWN_FEE_MS, ge=1, le=30)
+    fork_bomb_count: int = Field(default=60, ge=10, le=60)
+    spawn_fee_ms: int = Field(default=SPAWN_FEE_MS, ge=1, le=15)
     spawn_every: int = Field(default=1, ge=1, le=10)
 
     # Cryptojacking params
-    crypto_miner_count: int = Field(default=1, ge=1, le=10)
+    crypto_miner_count: int = Field(default=1, ge=1, le=5)
 
     # Shared params
-    critical_task_count: int = Field(default=1, ge=1, le=10)
-    default_budget_ms: int = Field(default=DEFAULT_BUDGET_MS, ge=10, le=500)
+    critical_task_count: int = Field(default=1, ge=1, le=3)
+    default_budget_ms: int = Field(default=DEFAULT_BUDGET_MS, ge=20, le=120)
     default_slice_ms: int = Field(default=DEFAULT_SLICE_MS, ge=1, le=50)
     mint_rate_active_ms: int = Field(default=MINT_RATE_ACTIVE_MS, ge=0, le=20)
-    mint_rate_throttled_ms: int = Field(default=MINT_RATE_THROTTLED_MS, ge=0, le=20)
+    mint_rate_throttled_ms: int = Field(default=MINT_RATE_THROTTLED_MS, ge=0, le=5)
     child_start_budget_ms: int = Field(default=CHILD_START_BUDGET_MS, ge=1, le=100)
 
 
