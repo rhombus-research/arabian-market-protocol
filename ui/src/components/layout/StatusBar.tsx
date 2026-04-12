@@ -43,7 +43,11 @@ export function StatusBar() {
         </>
       ) : (
         <span className="text-amp-text-muted/50">
-          {tick > 0 ? `Simulation ended at tick ${tick}` : 'Ready'}
+          {tick > 0
+            ? (tick === 80 && !running
+              ? 'Static preview — run locally with the Python backend for live simulation'
+              : `Simulation ended at tick ${tick}`)
+            : 'Ready'}
         </span>
       )}
     </div>

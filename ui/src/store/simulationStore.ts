@@ -4,6 +4,7 @@ import type {
   ProcessSnapshot,
   SystemMetrics,
 } from '../types/simulation';
+import { DEMO_SEED } from './demoSeed';
 
 const MAX_HISTORY = 200;
 
@@ -42,16 +43,36 @@ const emptyMetrics: SystemMetrics = {
   critical_dispatch_ratio_market: 0,
 };
 
+// Check if backend is available — if not, seed with demo data
+const isStatic = typeof window !== 'undefined' &&
+  !window.location.port &&
+  window.location.hostname.includes('github.io');
+
+const initialState = isStatic
+  ? {
+      currentTick: DEMO_SEED.currentTick,
+      tickHistory: DEMO_SEED.tickHistory,
+      rrProcesses: DEMO_SEED.rrProcesses,
+      marketProcesses: DEMO_SEED.marketProcesses,
+      system: DEMO_SEED.system,
+      eventLog: [
+        { tick: 0, type: 'transition' as const, scheduler: 'market' as const, detail: 'Demo mode — backend not connected' },
+      ],
+    }
+  : {
+      currentTick: 0,
+      tickHistory: [],
+      rrProcesses: [],
+      marketProcesses: [],
+      system: { ...emptyMetrics },
+      eventLog: [],
+    };
+
 export const useSimulationStore = create<SimulationState>((set) => ({
   sessionId: null,
   running: false,
   paused: false,
-  currentTick: 0,
-  tickHistory: [],
-  rrProcesses: [],
-  marketProcesses: [],
-  system: { ...emptyMetrics },
-  eventLog: [],
+  ...initialState,
 
   setSession: (id) => set({ sessionId: id }),
   setRunning: (running) => set({ running }),

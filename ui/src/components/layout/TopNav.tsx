@@ -8,7 +8,7 @@ export function TopNav() {
     <nav className="bg-gradient-to-r from-amp-panel via-amp-card to-amp-panel border-b border-amp-gold-dim/40 px-6 h-16 shrink-0">
       <div className="flex items-center justify-between h-full">
         <div className="flex items-center gap-3">
-          <img src="/lamp.png" alt="AMP" className="h-9 w-auto object-contain" />
+          <img src={`${import.meta.env.BASE_URL}lamp.png`} alt="AMP" className="h-9 w-auto object-contain" />
           <h1
             className="text-amp-gold"
             style={{ fontFamily: "'Instrument Serif', serif", fontSize: '32px', lineHeight: '1' }}
