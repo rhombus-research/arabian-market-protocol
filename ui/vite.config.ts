@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   root: path.resolve(__dirname),
+  base: '/arabian-market-protocol/',
   plugins: [react(), tailwindcss()],
   server: {
     port: 5200,
