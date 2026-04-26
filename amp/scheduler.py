@@ -64,7 +64,6 @@ class MarketScheduler:
             if r is None:
                 continue
 
-            # BANKRUPT is a terminal state — only minting can reverse it
             if r.state is ExecutionState.BANKRUPT:
                 continue
 
