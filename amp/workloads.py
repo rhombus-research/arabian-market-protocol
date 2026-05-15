@@ -68,6 +68,43 @@ class CryptojackingDemand:
 
 
 @dataclass(slots=True)
+class PulseAttacker:
+    """Adaptive adversary: alternates between attack and recovery phases.
+
+    Demands `high_ms` for `burst_ticks` consecutive ticks, then `low_ms`
+    for `rest_ticks` ticks, then repeats. Models an attacker that
+    modulates demand to delay or avoid throttling — at the cost of
+    reduced attack effectiveness during rest phases.
+    """
+    high_ms: int
+    low_ms: int
+    burst_ticks: int
+    rest_ticks: int
+
+    def demand_ms(self, tick: int) -> int:
+        cycle = self.burst_ticks + self.rest_ticks
+        phase = tick % cycle
+        return self.high_ms if phase < self.burst_ticks else self.low_ms
+
+
+@dataclass(slots=True)
+class TenureGamer:
+    """Strategic adversary: builds tenure with low demand, then attacks.
+
+    Demands `low_ms` for `buildup_ticks` consecutive ticks (accumulating
+    budget and avoiding throttle), then permanently switches to `high_ms`.
+    Tests whether a strategic attacker can game a temporal-trust scheme
+    by establishing a benign pattern before attacking.
+    """
+    low_ms: int
+    high_ms: int
+    buildup_ticks: int
+
+    def demand_ms(self, tick: int) -> int:
+        return self.low_ms if tick < self.buildup_ticks else self.high_ms
+
+
+@dataclass(slots=True)
 class ForkBombSpawner:
     spawn_every: int
     spawn_count: int

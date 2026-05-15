@@ -1,0 +1,74 @@
+{
+  "runs": [
+    {
+      "label": "Constant cryptojacker",
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.7181,
+      "benign_dispatches": 147,
+      "attacker_dispatches": 10,
+      "attacker_first_throttle_tick": 9,
+      "attacker_first_bankrupt_tick": null,
+      "attacker_recovery_count": 0,
+      "attacker_final_state": "THROTTLED",
+      "attacker_final_budget": 1,
+      "total_dispatches": 557,
+      "cpu_utilization": 0.2785
+    },
+    {
+      "label": "Pulse 50% (5b/5r)",
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.6838,
+      "benign_dispatches": 169,
+      "attacker_dispatches": 16,
+      "attacker_first_throttle_tick": 35,
+      "attacker_first_bankrupt_tick": null,
+      "attacker_recovery_count": 0,
+      "attacker_final_state": "THROTTLED",
+      "attacker_final_budget": 1,
+      "total_dispatches": 585,
+      "cpu_utilization": 0.2925
+    },
+    {
+      "label": "Pulse 30% (3b/7r)",
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.4306,
+      "benign_dispatches": 329,
+      "attacker_dispatches": 200,
+      "attacker_first_throttle_tick": null,
+      "attacker_first_bankrupt_tick": null,
+      "attacker_recovery_count": 0,
+      "attacker_final_state": "ACTIVE",
+      "attacker_final_budget": 2060,
+      "total_dispatches": 929,
+      "cpu_utilization": 0.4645
+    },
+    {
+      "label": "Pulse 10% (1b/9r)",
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.789,
+      "benign_dispatches": 107,
+      "attacker_dispatches": 0,
+      "attacker_first_throttle_tick": null,
+      "attacker_first_bankrupt_tick": null,
+      "attacker_recovery_count": 0,
+      "attacker_final_state": "ACTIVE",
+      "attacker_final_budget": 4060,
+      "total_dispatches": 507,
+      "cpu_utilization": 0.2535
+    },
+    {
+      "label": "Tenure gamer (1ms x100, then 10ms)",
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.5571,
+      "benign_dispatches": 281,
+      "attacker_dispatches": 37,
+      "attacker_first_throttle_tick": 144,
+      "attacker_first_bankrupt_tick": null,
+      "attacker_recovery_count": 0,
+      "attacker_final_state": "THROTTLED",
+      "attacker_final_budget": 1,
+      "total_dispatches": 718,
+      "cpu_utilization": 0.359
+    }
+  ]
+}

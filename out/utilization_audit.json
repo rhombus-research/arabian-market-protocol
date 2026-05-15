@@ -1,0 +1,184 @@
+{
+  "runs": [
+    {
+      "path": "out\\cryptojack_market.jsonl",
+      "total_events": 8002,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 557,
+      "ticks": 2000,
+      "cpu_utilization": 0.2785,
+      "idle_ticks": 1443,
+      "idle_pct": 72.2
+    },
+    {
+      "path": "out\\cryptojack_rr.jsonl",
+      "total_events": 2000,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 2000,
+      "ticks": 2000,
+      "cpu_utilization": 1.0,
+      "idle_ticks": 0,
+      "idle_pct": 0.0
+    },
+    {
+      "path": "out\\forkbomb_market.jsonl",
+      "total_events": 80,
+      "dispatch_events": 80,
+      "dispatched_ticks": 79,
+      "ticks": 80,
+      "cpu_utilization": 0.9875,
+      "idle_ticks": 1,
+      "idle_pct": 1.2
+    },
+    {
+      "path": "out\\forkbomb_market_fee_1.jsonl",
+      "total_events": 57937,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 770,
+      "ticks": 2000,
+      "cpu_utilization": 0.385,
+      "idle_ticks": 1230,
+      "idle_pct": 61.5
+    },
+    {
+      "path": "out\\forkbomb_market_fee_10.jsonl",
+      "total_events": 20005,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 560,
+      "ticks": 2000,
+      "cpu_utilization": 0.28,
+      "idle_ticks": 1440,
+      "idle_pct": 72.0
+    },
+    {
+      "path": "out\\forkbomb_market_fee_5.jsonl",
+      "total_events": 29998,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 612,
+      "ticks": 2000,
+      "cpu_utilization": 0.306,
+      "idle_ticks": 1388,
+      "idle_pct": 69.4
+    },
+    {
+      "path": "out\\forkbomb_rr.jsonl",
+      "total_events": 2000,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 2000,
+      "ticks": 2000,
+      "cpu_utilization": 1.0,
+      "idle_ticks": 0,
+      "idle_pct": 0.0
+    },
+    {
+      "path": "out\\mint_sweep_throttled_0.jsonl",
+      "total_events": 8002,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 557,
+      "ticks": 2000,
+      "cpu_utilization": 0.2785,
+      "idle_ticks": 1443,
+      "idle_pct": 72.2
+    },
+    {
+      "path": "out\\mint_sweep_throttled_1.jsonl",
+      "total_events": 8002,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 557,
+      "ticks": 2000,
+      "cpu_utilization": 0.2785,
+      "idle_ticks": 1443,
+      "idle_pct": 72.2
+    },
+    {
+      "path": "out\\mint_sweep_throttled_10.jsonl",
+      "total_events": 8181,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 2000,
+      "ticks": 2000,
+      "cpu_utilization": 1.0,
+      "idle_ticks": 0,
+      "idle_pct": 0.0
+    },
+    {
+      "path": "out\\mint_sweep_throttled_2.jsonl",
+      "total_events": 8004,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 560,
+      "ticks": 2000,
+      "cpu_utilization": 0.28,
+      "idle_ticks": 1440,
+      "idle_pct": 72.0
+    },
+    {
+      "path": "out\\mint_sweep_throttled_3.jsonl",
+      "total_events": 9095,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 2000,
+      "ticks": 2000,
+      "cpu_utilization": 1.0,
+      "idle_ticks": 0,
+      "idle_pct": 0.0
+    },
+    {
+      "path": "out\\mint_sweep_throttled_4.jsonl",
+      "total_events": 8727,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 2000,
+      "ticks": 2000,
+      "cpu_utilization": 1.0,
+      "idle_ticks": 0,
+      "idle_pct": 0.0
+    },
+    {
+      "path": "out\\mint_sweep_throttled_5.jsonl",
+      "total_events": 8366,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 2000,
+      "ticks": 2000,
+      "cpu_utilization": 1.0,
+      "idle_ticks": 0,
+      "idle_pct": 0.0
+    },
+    {
+      "path": "out\\mint_sweep_throttled_6.jsonl",
+      "total_events": 8361,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 2000,
+      "ticks": 2000,
+      "cpu_utilization": 1.0,
+      "idle_ticks": 0,
+      "idle_pct": 0.0
+    },
+    {
+      "path": "out\\mint_sweep_throttled_7.jsonl",
+      "total_events": 8361,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 2000,
+      "ticks": 2000,
+      "cpu_utilization": 1.0,
+      "idle_ticks": 0,
+      "idle_pct": 0.0
+    },
+    {
+      "path": "out\\mint_sweep_throttled_8.jsonl",
+      "total_events": 8241,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 2000,
+      "ticks": 2000,
+      "cpu_utilization": 1.0,
+      "idle_ticks": 0,
+      "idle_pct": 0.0
+    },
+    {
+      "path": "out\\mint_sweep_throttled_9.jsonl",
+      "total_events": 8183,
+      "dispatch_events": 2000,
+      "dispatched_ticks": 2000,
+      "ticks": 2000,
+      "cpu_utilization": 1.0,
+      "idle_ticks": 0,
+      "idle_pct": 0.0
+    }
+  ]
+}

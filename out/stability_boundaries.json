@@ -1,0 +1,102 @@
+{
+  "flat_mint": [
+    {
+      "mint_rate_throttled": 0,
+      "use_decay": false,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.7181,
+      "attacker_dispatches": 10,
+      "cpu_utilization": 0.2785
+    },
+    {
+      "mint_rate_throttled": 1,
+      "use_decay": false,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.2,
+      "attacker_dispatches": 505,
+      "cpu_utilization": 1.0
+    },
+    {
+      "mint_rate_throttled": 2,
+      "use_decay": false,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.2,
+      "attacker_dispatches": 937,
+      "cpu_utilization": 1.0
+    },
+    {
+      "mint_rate_throttled": 3,
+      "use_decay": false,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.2,
+      "attacker_dispatches": 1302,
+      "cpu_utilization": 1.0
+    },
+    {
+      "mint_rate_throttled": 4,
+      "use_decay": false,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.2,
+      "attacker_dispatches": 1600,
+      "cpu_utilization": 1.0
+    },
+    {
+      "mint_rate_throttled": 5,
+      "use_decay": false,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.2,
+      "attacker_dispatches": 1600,
+      "cpu_utilization": 1.0
+    }
+  ],
+  "with_decay": [
+    {
+      "mint_rate_throttled": 0,
+      "use_decay": true,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.7181,
+      "attacker_dispatches": 10,
+      "cpu_utilization": 0.2785
+    },
+    {
+      "mint_rate_throttled": 1,
+      "use_decay": true,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.7181,
+      "attacker_dispatches": 10,
+      "cpu_utilization": 0.2785
+    },
+    {
+      "mint_rate_throttled": 2,
+      "use_decay": true,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.7143,
+      "attacker_dispatches": 11,
+      "cpu_utilization": 0.28
+    },
+    {
+      "mint_rate_throttled": 3,
+      "use_decay": true,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.2,
+      "attacker_dispatches": 9,
+      "cpu_utilization": 1.0
+    },
+    {
+      "mint_rate_throttled": 4,
+      "use_decay": true,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.2,
+      "attacker_dispatches": 10,
+      "cpu_utilization": 1.0
+    },
+    {
+      "mint_rate_throttled": 5,
+      "use_decay": true,
+      "critical_dispatches": 400,
+      "critical_dispatch_ratio": 0.2,
+      "attacker_dispatches": 10,
+      "cpu_utilization": 1.0
+    }
+  ]
+}
