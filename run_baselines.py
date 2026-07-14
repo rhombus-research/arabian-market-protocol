@@ -1,7 +1,7 @@
 """Baseline comparison: RR vs CFS vs Cgroup vs AMP across both attack classes.
 
-Addresses the practicum grader's primary criticism: the baseline cannot be
-Round Robin alone. CFS and Cgroup are added as stronger competitors.
+Round Robin alone is an insufficient baseline; CFS and Cgroup are added as
+stronger competitors to situate AMP against production-relevant schedulers.
 
 Output:
     out/baseline_comparison.json — machine-readable per-config results

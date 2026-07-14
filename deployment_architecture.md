@@ -1,9 +1,9 @@
 # AMP Deployment Architecture
 
 This document describes how the Arabian Market Protocol would map onto a Linux
-production deployment. It complements the simulation results by addressing the
-practicum grader's second criticism: *how would you deploy the solution to
-guard against the kinds of attacks that motivate it?*
+production deployment. It complements the simulation results by addressing a
+natural follow-on question: *how would this solution be deployed to guard
+against the kinds of attacks that motivate it?*
 
 The simulation defines protocol semantics. This document defines the
 integration surface.
