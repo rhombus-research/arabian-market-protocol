@@ -107,9 +107,32 @@ and prints formatted tables to stdout.
 
 ## Citation
 
-If you use this work, please cite the paper and the archived code artifact.
-The code snapshot is archived on Zenodo; the DOI badge will be added here once
-the deposit is minted.
+If you use this work, please cite both the paper and the archived code artifact.
+Replace the `<DOI>` placeholders with the Zenodo DOIs once they are minted (cite
+the Zenodo *concept* DOI for the code so it always resolves to the latest
+version).
+
+**Paper**
+
+> Bhat, S. (2026). *Economic Enforcement Without Classification: A Market-Based
+> Defense Against Resource Exhaustion Attacks.* Rhombus Research. DOI: `<paper-DOI>`
+
+**Software**
+
+> Bhat, S. (2026). *Arabian Market Protocol (AMP)* (Version 0.1.1) [Software].
+> Rhombus Research LLC. DOI: `<code-concept-DOI>`
+
+```bibtex
+@misc{amp2026,
+  author       = {Bhat, Sriram},
+  title        = {Economic Enforcement Without Classification: A Market-Based
+                  Defense Against Resource Exhaustion Attacks},
+  year         = {2026},
+  howpublished = {Rhombus Research},
+  note         = {Code: Arabian Market Protocol (AMP)},
+  doi          = {<paper-DOI>}
+}
+```
 
 ## License
 

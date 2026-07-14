@@ -192,8 +192,8 @@ adversary refused service" — these have different operator responses.
 
 - **Cross-node coordination.** Multi-tenant cloud deployments span hosts.
   Budget migration on process migration, cross-node spawn fee enforcement,
-  and identity stability across scheduling domains are unresolved
-  (paper §IX.D).
+  and identity stability across scheduling domains are unresolved and
+  left as future work.
 - **Budget recovery.** No organic recovery from THROTTLED or BANKRUPT.
   Deployment requires either operator-mediated rehabilitation or a
   protocol extension.
