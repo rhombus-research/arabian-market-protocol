@@ -111,9 +111,8 @@ and prints formatted tables to stdout.
 ## Citation
 
 If you use this work, please cite both the paper and the archived code artifact.
-Replace the `<DOI>` placeholders with the Zenodo DOIs once they are minted (cite
-the Zenodo *concept* DOI for the code so it always resolves to the latest
-version).
+The code DOI below is the Zenodo *concept* DOI, which always resolves to the
+latest released version.
 
 **Paper**
 
