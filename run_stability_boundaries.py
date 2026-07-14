@@ -1,9 +1,9 @@
 """Two-boundary stability analysis.
 
-The report's §VII.A presents a single 'stability boundary at rate=3' derived
-from the decay-on mint rate sweep, and an analytical inequality that predicts
-a no-decay boundary at rate=5. This experiment shows the two boundaries are
-distinct and that the analytical inequality is loose by 5x.
+A single 'stability boundary at rate=3' can be derived from the decay-on mint
+rate sweep, alongside an analytical inequality that predicts a no-decay
+boundary at rate=5. This experiment shows the two boundaries are distinct and
+that the analytical inequality is loose by 5x.
 
 Boundary 1 (flat-mint):     between rate=0 and rate=1 — any non-zero flat
                             minting defeats throttle-only marginalization.
@@ -135,7 +135,7 @@ def main() -> None:
 Flat-mint boundary (no decay):           {flat_b}
 Decay-effectiveness boundary (with decay): {decay_b}
 
-The report's analytical inequality §VII.A:
+Analytical inequality:
     mint_rate_throttled < (THROTTLE_PENALTY_NUM / THROTTLE_PENALTY_DEN) * grant_ms
 With current params: mint_rate_throttled < 5 ms/tick (analytical bound).
 The empirical flat-mint boundary is rate=1, so the analytical bound is loose
