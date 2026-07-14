@@ -1,5 +1,8 @@
 # Arabian Market Protocol (AMP)
 
+[![DOI](https://zenodo.org/badge/1146851625.svg)](https://doi.org/10.5281/zenodo.21362952)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 <p>
   <img src="assets/lamp.png" alt="Arabian Market" width=512>
 </p>
@@ -115,12 +118,14 @@ version).
 **Paper**
 
 > Bhat, S. (2026). *Economic Enforcement Without Classification: A Market-Based
-> Defense Against Resource Exhaustion Attacks.* Rhombus Research. DOI: `<paper-DOI>`
+> Defense Against Resource Exhaustion Attacks.* Rhombus Research.
+> DOI: [10.5281/zenodo.21362269](https://doi.org/10.5281/zenodo.21362269)
 
 **Software**
 
-> Bhat, S. (2026). *Arabian Market Protocol (AMP)* (Version 0.1.1) [Software].
-> Rhombus Research LLC. DOI: `<code-concept-DOI>`
+> Bhat, S. (2026). *Arabian Market Protocol (AMP)* (Version 0.1.2) [Software].
+> Rhombus Research LLC.
+> DOI: [10.5281/zenodo.21362952](https://doi.org/10.5281/zenodo.21362952)
 
 ```bibtex
 @misc{amp2026,
@@ -130,7 +135,7 @@ version).
   year         = {2026},
   howpublished = {Rhombus Research},
   note         = {Code: Arabian Market Protocol (AMP)},
-  doi          = {<paper-DOI>}
+  doi          = {10.5281/zenodo.21362269}
 }
 ```
 
