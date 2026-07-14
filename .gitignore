@@ -2,3 +2,7 @@ __pycache__/
 .venv/
 .idea/
 *.pyc
+
+# Local-only planning and design docs — never published
+planning/
+*.local.md
